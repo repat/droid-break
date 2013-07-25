@@ -1,8 +1,7 @@
 Droid-Break
 ======
-Droid-Break is inspired by prism-break.org. It lists free and open source high quality Android apps as an alternative to the big proprietary solutions. 
-Please note that open source apps don't guarantee absolute freedom, e.g. an open source Twitter client still sends everything to Twitters' servers. 
-It's the best we can come up with though and in many cases is the better choice. 
+Droid-Break is a list of free and open source Android apps inspired by prism-break.org. We want to show you high quality alternatives to the big proprietary solutions.
+Please note that open source apps don't guarantee absolute freedom, e.g. an open source Twitter client still sends everything to Twitters' servers.It's the best we can come up with though and in many cases is the better choice. 
 If you think an app is missing, please write an [email](http://droid-break.info/support.html "support") or fork the project on github and make a pull request. 
 
 Also, you might want to consider to flash a custom ROM like [Cyanogen Mod](http://www.cyanogenmod.org/ "CyanogenMod") on your device and install a different market, e.g. [F-Droid](https://f-droid.org/ "F-Droid"). 
