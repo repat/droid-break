@@ -9,7 +9,10 @@
     <meta content="android,alternative,apps,free,foss,open source,break" name="keywords" />
     <link href="http://groundfloor.neocities.org/default.css" media="all" rel="stylesheet" type="text/css" />
     <link href="brass-min.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /> 
     <!--[if lt IE 9]> <script src="//html5shiv.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script><![endif]-->
+    <!-- local copy of jquery 2.0.2 -->
+  <script type="text/javascript" src="jquery-2.0.2.min.js"></script>
   </head>
   <body>
   <!-- Fork me on GitHub -->
@@ -27,30 +30,20 @@
             <a href="#voip">VoIP</a>
             <a href="#audio">Audio</a>
             <a href="#video">Video</a>
-            <a href="#email">Email<l/a>
+            <a href="#email">Email</a>
             <a href="#notes">Notes</a>
             <a href="#newsreader">News Reader</a>
             <a href="#filemanager">File Manager</a>
             <a href="#navigation">Navigation</a>
+            <a href="#cloud">Cloud</a>
             <a href="#misc">Misc</a>
-          </g i>
+          </li>
         </ul>
       </nav>
       
-      <p><div class="media emph-Block">
-          <div class="media-Object">
-					<a href="#!" class="pic-Rounded">
-						<img src="underconstruction.png" alt="underconstruction" width="50" height="50" />
-					</a>
-				</div>
-				<div class="media-Text">
-					<p>
-						Please note that this site is still under construction
-					</p>
-				</div>
-			</div></p>
+      <p>Please note that this site is still under construction!</p>
+      
       <p>
-      <br />
        Droid-Break is a list of free and open source Android apps inspired by <a href="https://prism-break.org">prism-break.org.</a> We want to show you high quality alternatives to the big proprietary solutions.<br />
        Please note that open source apps don't guarantee absolute freedom, e.g. an open source Twitter client still sends everything to Twitters' servers.<br />
        Anyway, we believe it's the best we can come up with and that in many cases it's the better choice.<br />
@@ -58,17 +51,16 @@
       </p>
       
       <p>
-      Also, you might want to consider to flash a custom ROM like <a href="http://www.cyanogenmod.org/">Cyanogen Mod</a> on your device and install a different market, e.g. <a href="https://f-droid.org/">F-Droid</a>.<br />
-        I will compile some information on how to do that later on.
+      You will find most of these apps in the <a href="https://f-droid.org/">F-Droid</a> repository.  Also, you might want to consider to flash a custom ROM like <a href="http://www.cyanogenmod.org/">Cyanogen Mod</a> on your device.
       </p>
       
-      <p>Apps to come: Fdroid, TextSecure, Subsonic, Owncloud, Owncloud Bookmarks, OI Flashlight, OI Safe, ConnectBot, ZXing Barcode Scanner, DiskUsage</p>
+      <p>Apps to come: Subsonic, Owncloud, ConnectBot, DiskUsage, andLess</p>
     </header>
     
     <main>
     <!-- Start Browser -->
-    <h2><a name="browser" id="browserclass">Browser</a></h2>
-    <table class="browsertable">
+    <h2><a id="browser">Browser</a></h2>
+    <table>
     
       <tr>
         <th>Proprietary</th>
@@ -82,6 +74,10 @@
             <ul>
             <li><img src="chrome.png" alt="Chrome" width="25" height="25"/> &nbsp; Chrome</li>
             <li><img src="opera.png" alt="Opera" width="25" height="25"/> &nbsp; Opera</li>
+            <li><img src="dolphin.png" alt="Dolphin" width="25" height="25"/> &nbsp; Dolphin</li>
+            <li><img src="maxthon.png" alt="Maxthon" width="25" height="25"/> &nbsp; Maxthon</li>
+            <li><img src="uc.png" alt="UC Browser" width="25" height="25"/> &nbsp; UC Browser</li>
+            <li><img src="boat.png" alt="Boat" width="25" height="25"/> &nbsp; Boat</li>
             
             </ul>
         </td>
@@ -106,6 +102,10 @@
             <li>Min. Android version: varies</li>
             <li>Sourcecode</li>
           </ul>
+          <hr />
+          <a href="https://play.google.com/store/apps/details?id=org.mozilla.firefox&amp;hl=de"><img src="playstore.png" alt="Google Playstore"/></a>
+          <a href="https://f-droid.org/repository/browse/?fdfilter=firefox&amp;fdid=org.mozilla.firefox"><img src="f-droid-repository.png" alt="F-Droid repository"/></a>
+          
 				</div>
 			</div>
       
@@ -123,8 +123,28 @@
 					</p>
           <ul>
             <li>Price: free</li>
-            <li>Min. Android version: 4.0+</li>
+            <li>Min. Android version: 4.0</li>
             <li><a href="https://github.com/Anasthase/TintBrowser">Sourcecode</a></li>
+          </ul>
+				</div>
+			</div>
+      
+      <!-- Zirco Browser -->
+       <div class="media emph-Block">
+      	  <div class="media-Object">
+					<a href="#!" class="pic-Rounded">
+						<img src="zircobrowser.png" alt="zirco browser" width="50" height="50" />
+					</a>
+				</div>
+				<div class="media-Text">
+					<h1 class="eps">Zirco Browser</h1>
+					<p>
+						Browser with included ad-blocking.
+					</p>
+          <ul>
+            <li>Price: free</li>
+            <li>Min. Android version: 2.1</li>
+            <li><a href="http://code.google.com/p/zirco-browser/">Sourcecode</a></li>
           </ul>
 				</div>
 			</div>
@@ -136,11 +156,12 @@
           </td>
       </tr>
     </table>
+    
     <!-- End Browser -->
     
     <!-- Start SocialNetworks -->
-      <h2><a name="socialnetworks" class="socialnetworksclass">Social Networks</a></h2>
-       <table class="socialnetworkstable">
+      <h2><a id="socialnetworks">Social Networks</a></h2>
+       <table>
       <tr>
         <th>Proprietary</th>
         <th>Free alternative</th>
@@ -152,6 +173,8 @@
         <td style="width:10%">
             <ul>
             <li><img src="twitter.png" alt="twitter" width="25" height="25"/> &nbsp; Twitter</li>
+            <li><img src="facebook.png" alt="facebook" width="25" height="25"/> &nbsp; Facebook</li>
+            <li><img src="tumblr.png" alt="tumblr" width="25" height="25"/> &nbsp; Tumblr</li>
             </ul>
         </td>
         
@@ -188,8 +211,8 @@
     <!-- End SocialNetworks -->
     
     <!-- Start Messenger-->
-      <h2><a name="messenger" class="messengerclass">Messenger</a></h2>
-      <table class="messengertable">
+      <h2><a id="messenger">Messenger</a></h2>
+      <table>
       <tr>
         <th>Proprietary</th>
         <th>Free alternative</th>
@@ -202,6 +225,11 @@
             <ul>
             <li><img src="whatsapp.png" alt="whatsapp" width="25" height="25"/> &nbsp; Whatsapp</li>
             <li><img src="viber.png" alt="viber" width="25" height="25"/> &nbsp; Viber</li>
+            <li><img src="facebookmessenger.png" alt="facebook messenger" width="25" height="25"/> &nbsp; Facebook Messenger</li>
+            <li><img src="icq.png" alt="icq" width="25" height="25"/> &nbsp; ICQ</li>
+            <li><img src="kik.png" alt="kik" width="25" height="25"/> &nbsp; Kik</li>
+            <li><img src="messengerplay.png" alt="messenger play" width="25" height="25"/> &nbsp; Messenger Play</li>
+            <li><img src="yahoomessenger.png" alt="yim" width="25" height="25"/> &nbsp; Yahoo Messenger</li>
             </ul>
         </td>
         
@@ -221,7 +249,7 @@
 					</p>
           <ul>
             <li>Price: free (supporter version: 3 &euro;)</li>
-            <li>Min. Android version: 1.5+</li>
+            <li>Min. Android version: 1.5</li>
             <li><a href="https://github.com/redsolution/xabber-android">Sourcecode</a></li>
           </ul>
 				</div>
@@ -261,7 +289,8 @@
 					</p>
           <ul>
             <li>Price: free</li>
-            <li>Min. Android version: 2.2+</li>
+            <li>Min. Android version: 2.2
+            </li>
             <li><a href="https://github.com/surespot/android">Sourcecode</a></li>
           </ul>
 				</div>
@@ -278,9 +307,9 @@
     <!-- End Messenger -->
     
     <!-- Start VoIP -->
-    <h2><a name="voip" class="voipclass">VoIP</a></h2>
+    <h2><a id="voip">VoIP</a></h2>
       
-       <table class="voiptable">
+       <table>
       <tr>
         <th>Proprietary</th>
         <th>Free alternative</th>
@@ -293,6 +322,11 @@
             <ul>
             <li><img src="skype.png" alt="Skype" width="25" height="25"/> &nbsp; Skype</li>
             <li><img src="viber.png" alt="Viber" width="25" height="25"/> &nbsp; Viber</li>
+            <li><img src="hangouts.png" alt="hangouts" width="25" height="25"/> &nbsp; Hangouts</li>
+            <li><img src="line.png" alt="Line" width="25" height="25"/> &nbsp; LINE</li>
+            <li><img src="fring.png" alt="Fring" width="25" height="25"/> &nbsp; Fring</li>
+            <li><img src="talkatone.png" alt="Talkatone" width="25" height="25"/> &nbsp; Talkatone</li>
+            <li><img src="tango.png" alt="Tango" width="25" height="25"/> &nbsp; Tango</li>
             
             </ul>
         </td>
@@ -334,12 +368,53 @@
 					</p>
           <ul>
             <li>Price: free</li>
-            <li>Min. Android version: 1.5+</li>
+            <li>Min. Android version: 1.5</li>
             <li><a href="http://code.google.com/p/sipdroid/">Sourcecode</a></li>
           </ul>
 				</div>
 			</div>
+      
+          <!-- CSipSimple -->
+        <div class="media emph-Block">
+          <div class="media-Object">
+					<a href="#!" class="pic-Rounded">
+						<img src="csipsimple.png" alt="csipsimple" width="50" height="50" />
+					</a>
+				</div>
+				<div class="media-Text">
+					<h1 class="eps">CSipSimple</h1>
+					<p>
+						Easy to use SIP-client that supports encryption.
+					</p>
+          <ul>
+            <li>Price: free</li>
+            <li>Min. Android version: varies</li>
+            <li><a href="http://code.google.com/p/csipsimple/">Sourcecode</a></li>
+          </ul>
+				</div>
+			</div>
+      
+        <!-- Linphone -->
+        <div class="media emph-Block">
+          <div class="media-Object">
+  				<a href="#!" class="pic-Rounded">
+						<img src="linphonevideo.png" alt="linphone" width="50" height="50" />
+					</a>
+				</div>
+				<div class="media-Text">
+					<h1 class="eps">Linphone Video</h1>
+					<p>
+						Easy to use SIP-client with video and encryption support.
+					</p>
+          <ul>
+            <li>Price: free</li>
+            <li>Min. Android version: 2.2</li>
+            <li><a href="http://www.linphone.org/eng/download/git.html">Sourcecode</a></li>
+          </ul>
+				</div>
+			</div>
         </td>
+        
         
       <!-- VoIP:Notes -->
          <td style="width:25%">
@@ -350,8 +425,8 @@
     <!-- End VoIP -->
     
     <!-- Start Audio -->
-      <h2><a name="audio" class="audioclass">Audio</a></h2>
-       <table class="audiotable">
+      <h2><a id="audio">Audio</a></h2>
+       <table>
       <tr>
         <th>Proprietary</th>
         <th>Free alternative</th>
@@ -384,7 +459,7 @@
 					</p>
           <ul>
             <li>Price: free</li>
-            <li>Min. Android version: 2.3.3+</li>
+            <li>Min. Android version: 2.3.3</li>
             <li><a href="https://github.com/eddturtle/TurtlePlayer">Sourcecode</a></li>
           </ul>
 				</div>
@@ -401,9 +476,9 @@
     
     
     <!-- Start Video -->
-    <h2><a name="video" class="videoclass">Video</a></h2>
+    <h2><a id="video">Video</a></h2>
       
-      <table class="videotable">
+      <table>
       <tr>
         <th>Proprietary</th>
         <th>Free alternative</th>
@@ -452,8 +527,8 @@
     <!-- End Video -->
     
     <!-- Start EMail -->
-    <h2><a name="email" class="emailclass">Email</a></h2>
-        <table class="emailtable">
+    <h2><a id="email">Email</a></h2>
+        <table>
       <tr>
         <th>Proprietary</th>
         <th>Free alternative</th>
@@ -502,8 +577,8 @@
     <!-- End Email -->
     
     <!-- Start Notes -->
-    <h2><a name="notes" class="notesclass">Notes</a></h2>
-    <table class="notestable">
+    <h2><a id="notes">Notes</a></h2>
+    <table>
       <tr>
         <th>Proprietary</th>
         <th>Free alternative</th>
@@ -511,10 +586,12 @@
       </tr>
       
       <tr>
-      <!-- Notes:Proprietary -->
+      <!-- g Proprietary -->
         <td style="width:10%">
             <ul>
                 <li><img src="evernote.png" alt="evernote" width="25" height="25"/> &nbsp; Evernote</li>
+                <li><img src="googlekeep.png" alt="googlekeep" width="25" height="25"/> &nbsp; Google Keep</li>
+                <li><img src="colornote.png" alt="colornote" width="25" height="25"/> &nbsp; Colornote</li>
             </ul>
         </td>
         
@@ -534,7 +611,7 @@
 					</p>
           <ul>
             <li>Price: free</li>
-            <li>Min. Android version: 1.1+</li>
+            <li>Min. Android version: 1.1</li>
             <li><a href="https://github.com/openintents/notepad">Sourcecode</a></li>
           </ul>
 				</div>
@@ -550,8 +627,8 @@
     <!-- End Notes -->
     
     <!-- Start NewsReader -->
-    <h2><a name="newsreader" class="newsreaderclass">News Reader</a></h2>
-    <table class="newsreadertable">
+    <h2><a id="newsreader">News Reader</a></h2>
+    <table>
       <tr>
         <th>Proprietary</th>
         <th>Free alternative</th>
@@ -583,7 +660,7 @@
 					</p>
           <ul>
             <li>Price: free</li>
-            <li>Min. Android version: 2.1+</li>
+            <li>Min. Android version: 2.1</li>
             <li><a href="https://github.com/owncloud/News-Android-App">Sourcecode</a></li>
           </ul>
 				</div>
@@ -599,8 +676,8 @@
     <!-- End NewsReader -->
     
     <!-- Start FileManager -->
-     <h2><a name="filemanager" class="filemanagerclass">File Manager</a></h2>
-    <table class="filemanagertableclass">
+     <h2><a id="filemanager">File Manager</a></h2>
+    <table>
       <tr>
         <th>Proprietary</th>
         <th>Free alternative</th>
@@ -613,7 +690,7 @@
             <ul>
                 <li><img src="solidexplorer.png" alt="solid explorer" width="25" height="25"/> &nbsp; Solid Explorer</li>
                 <li><img src="esdateiexplorer.png" alt="es datei explorer" width="25" height="25"/> &nbsp; ES Datei Explorer</li>
-                <li><img src="fileexplorer.png" alt="file explorer" width="25" height="25"/> &nbsp; File Explorer</li>
+                <li><img src="astrofilemanager.png" alt="astro file manager" width="25" height="25"/> &nbsp; Astro File Manager</li>
             </ul>
         </td>
         
@@ -638,6 +715,46 @@
           </ul>
 				</div>
 			</div>
+      
+      <!-- File Explorer -->
+          <div class="media emph-Block">
+          <div class="media-Object">
+    			<a href="#!" class="pic-Rounded">
+						<img src="appositedesigns.fileexplorer.png" alt="File Explorer" width="50" height="50" />
+					</a>
+				</div>
+				<div class="media-Text">
+					<h1 class="eps">File Explorer</h1>
+					<p>
+					 Simple File Explorer.
+					</p>
+          <ul>
+            <li>Price: free</li>
+            <li>Min. Android version: varies</li>
+            <li>Sourcecode</li>
+          </ul>
+				</div>
+			</div>
+      
+      <!-- Open Manager -->
+          <div class="media emph-Block">
+          <div class="media-Object">
+    			<a href="#!" class="pic-Rounded">
+						<img src="openmanager.png" alt="open manager" width="50" height="50" />
+					</a>
+				</div>
+				<div class="media-Text">
+					<h1 class="eps">Open Manager</h1>
+					<p>
+					Simple File Manager. Also a version for tablets
+					</p>
+          <ul>
+            <li>Price: free</li>
+            <li>Min. Android version: 1.6 (3.0 for tablets)</li>
+            <li><a href="https://github.com/nexes">Sourcecode</a></li>
+          </ul>
+				</div>
+			</div>
         </td>
         
       <!-- FileManager:Notes -->
@@ -649,8 +766,8 @@
     <!-- End FileManager -->
     
     <!-- Start Navigation -->
-     <h2><a name="navigation" class="navigationclas">Navigation</a></h2>
-    <table class="navigationtableclass">
+     <h2><a id="navigation" >Navigation</a></h2>
+    <table>
       <tr>
         <th>Proprietary</th>
         <th>Free alternative</th>
@@ -674,7 +791,7 @@
           <div class="media emph-Block">
           <div class="media-Object">
     			<a href="#!" class="pic-Rounded">
-						<img src="osmand.png" alt="oi file manager" width="50" height="50" />
+						<img src="osmand.png" alt="osmand" width="50" height="50" />
 					</a>
 				</div>
 				<div class="media-Text">
@@ -699,27 +816,145 @@
     </table>
     <!-- End Navigation -->
     
+    <!-- Cloud Misc -->
+    <h2><a id="cloud">Cloud</a></h2>
+    <table>
+      <tr>
+        <th>Proprietary</th>
+        <th>Free alternative</th>
+        <th>Notes</th>
+      </tr>
+      
+      <tr>
+      <!-- Cloud:Proprietary -->
+        <td style="width:10%">
+            <ul>
+            <li><img src="dropbox.png" alt="Dropbox" width="25" height="25"/> &nbsp; Dropbox</li>
+            <li><img src="googledrive.png" alt="Google Drive" width="25" height="25"/> &nbsp; Google Drive</li>
+            <li><img src="skydrive.png" alt="Sky Drive" width="25" height="25"/> &nbsp; Sky Drive</li>
+            <li><img src="mega.png" alt="Mega" width="25" height="25"/> &nbsp; Mega</li>
+            </ul>
+        </td>
+        
+        <!-- Cloud:Free alternative -->
+        <td>
+         <!-- Owncloud -->
+          <div class="media emph-Block">
+          <div class="media-Object">
+        	<a href="#!" class="pic-Rounded">
+						<img src="owncloud.png" alt="owncloud" width="50" height="50" />
+					</a>
+				</div>
+				<div class="media-Text">
+					<h1 class="eps">Owncloud</h1>
+					<p>
+					  Connects to an owncloud instance
+					</p>
+          <ul>
+            <li>Price: 0.79 &euro; </li>
+            <li>Min. Android version: 2.2</li>
+            <li><a href="https://github.com/owncloud/android">Sourcecode</a></li>
+          </ul>
+				</div>
+			</div>
+        </td>
+        
+      <!-- Cloud:Notes -->
+         <td style="width:25%">
+          notes
+          </td>
+      </tr>
+    </table>
+   <!-- End Cloud -->
+   
     <!-- Start Misc -->
-    <h2><a name="misc" class="misclass">Misc</a></h2>
-    <!-- End Misc -->
+    <h2><a id="misc">Misc</a></h2>
+    <table>
+      <tr>
+        <th>Proprietary</th>
+        <th>Free alternative</th>
+        <th>Notes</th>
+      </tr>
+      
+      <tr>
+      <!-- Misc:Proprietary -->
+        <td style="width:10%">
+            <ul>
+                <li>Flashlights</li>
+                <li>Barcode Scanner</li>
+                <li>System Tools</li>
+            </ul>
+        </td>
+        
+        <!-- Misc:Free alternative -->
+        <td>
+         <!-- OI Flashlight -->
+          <div class="media emph-Block">
+          <div class="media-Object">
+      		<a href="#!" class="pic-Rounded">
+						<img src="oiflashlight.png" alt="oi flashlight" width="50" height="50" />
+					</a>
+				</div>
+				<div class="media-Text">
+					<h1 class="eps">OI Flashlight</h1>
+					<p>
+					Simple flashlight that uses either display or the camera LED.
+					</p>
+          <ul>
+            <li>Price: free </li>
+            <li>Min. Android version: varies</li>
+            <li><a href="https://github.com/openintents/flashlight">Sourcecode</a></li>
+          </ul>
+				</div>
+			</div>
+      
+       <!-- ZXing Barcode Scanner-->
+          <div class="media emph-Block">
+          <div class="media-Object">
+        	<a href="#!" class="pic-Rounded">
+						<img src="zxingbarcodescanner.png" alt="zxing barcodes canner" width="50" height="50" />
+					</a>
+				</div>
+				<div class="media-Text">
+					<h1 class="eps">ZXing Barcode Scanner</h1>
+					<p>
+					Scans barcodes and QR-codes
+					</p>
+          <ul>
+            <li>Price: free </li>
+            <li>Min. Android version: varies</li>
+            <li><a href="http://code.google.com/p/zxing/">Sourcecode</a></li>
+          </ul>
+				</div>
+			</div>
+        </td>
+        
+      <!-- Misc:Notes -->
+         <td style="width:25%">
+          notes
+          </td>
+      </tr>
+    </table>
+   <!-- End Misc -->
+   
     <hr />
     <hr />
-    <a href="https://en.wikipedia.org/wiki/List_of_free_and_open-source_Android_applications"><img src="wikipedia.png" alt="List of foss Android Apps on Wikipedia" /></a> - <a href="https://www.prism-break.org/ "><img src="prismbreak.png" alt="prism break"/></a> - <a href="https://www.eff.org/ "><img src="eff.png" alt="eff"/></a> - <a href="http://opensource.org/"><img src="osi_standard_logo.png" alt="OSI" /></a> 
+    <!-- Links to friends -->
+    <a href="https://en.wikipedia.org/wiki/List_of_free_and_open-source_Android_applications"><img src="wikipedia.png" alt="List of foss Android Apps on Wikipedia" /></a> - <a href="https://www.prism-break.org/ "><img src="prismbreak.png" alt="prism break"/></a> - <a href="https://www.eff.org/ "><img src="eff.png" alt="eff"/></a> - <a href="http://opensource.org/"><img src="osi_standard_logo.png" alt="OSI" /></a> - <a href="https://f-droid.org/"><img src="fdroid.png" alt="f-droid" /></a> -  <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fdroidbreak.neocities.org%2F"><img src="html5.png" alt="valid html5" /></a> 
     </main>
-    
+      
     <!-- Footer -->
     <footer>
       <p>
         <a href="/">Home</a> - <a href="sources.html">Sources</a> - <a href="credits.html">Credits</a> - <a href="support.html">Support</a>
       </p>
       <p>
-        CC-BY-SA 2013 by <a href="http://repat.de">repat</a> - hosted on <a href="http://neocities.org" title="neocities">neocities.org</a> - built with <a href="http://groundfloor.neocities.org/">Groundfloor</a>, <a href="https://github.com/bleachedgraphics/Brass-Tacks">Brass-Tacks</a> and <a href="http://jquery.com/">jQuery</a> - Last update: 25. July 2013, 11:16
+        CC-BY-SA 2013 by <a href="http://repat.de">repat</a> - hosted on <a href="http://neocities.org" title="neocities">neocities.org</a> - built with <a href="http://groundfloor.neocities.org/">Groundfloor</a>, <a href="https://github.com/bleachedgraphics/Brass-Tacks">Brass-Tacks</a> and <a href="http://jquery.com/">jQuery</a> - Last update: 26. July 2013, 15:12
       </p>
       <p>
       Logos and images are trademarked by their respective companies.
       </p>
     </footer>
   </body>
-  <script type="text/javascript" href="http://code.jquery.com/jquery-2.0.2.min.js"></script>
-  <script type="text/javascript" href="myslide.js"></script>
+  
 </html>
