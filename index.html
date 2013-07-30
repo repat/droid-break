@@ -13,6 +13,8 @@
     <!--[if lt IE 9]> <script src="//html5shiv.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script><![endif]-->
     <!-- local copy of jquery 2.0.2 -->
   <script type="text/javascript" src="jquery-2.0.2.min.js"></script>
+  <!-- localisation via jquery.18n.properties to come -->
+  <script type="text/javascript" src="jquery.i18n.properties-min.js"></script>
   </head>
   <body>
   <!-- Fork me on GitHub -->
@@ -52,7 +54,7 @@
       You will find most of these apps in the <a href="https://f-droid.org/">F-Droid</a> repository.  Also, you might want to consider flashing a ROM like <a href="http://www.cyanogenmod.org/">CyanogenMod</a> on your device.
       </p>
       
-      <p>Apps to come: Subsonic, ConnectBot, DiskUsage, andLess, ankidroid</p>
+      <p>Apps to come: Subsonic, ConnectBot, DiskUsage</p>
     </header>
     
     <main>
@@ -195,7 +197,7 @@
 				<div class="media-Text">
 					<h1 class="eps">Twimight</h1>
 					<p>
-						Twimight is a fast, ad-free twitter-client with a emergency mode that sends your tweets via bluetooth to other twimight users, in case there is a network outage.
+						Twimight is a fast, ad-free twitter-client with a emergency mode that sends your tweets via bluetooth to other twimight users, in case there is a network outage. It's a research project by the <a href="http://www.ethz.ch/index_EN">ETH Z&uuml;rich.</a>
 					</p>
           <ul>
             <li>Price: free</li>
@@ -206,11 +208,83 @@
             <a href="https://play.google.com/store/apps/details?id=ch.ethz.twimight"><img src="playstore.png" alt="Google Playstore"/></a>
 				</div>
 			</div>
+      
+       <!-- Twidere -->
+          <div class="media emph-Block">
+          <div class="media-Object">
+					<a href="#!" class="pic-Rounded">
+						<img src="twidere.png" alt="twidere" width="50" height="50" />
+					</a>
+				</div>
+				<div class="media-Text">
+					<h1 class="eps">Twidere</h1>
+					<p>
+					  Twidere is an feature-rich, ad-free app in the holo-design and comes with a tablet mode.
+					</p>
+          <ul>
+            <li>Price: free</li>
+            <li>Min. Android version: 1.6</li>
+            <li><a href="https://github.com/mariotaku/twidere">Sourcecode</a></li>
+          </ul>
+          <hr />
+            <a href="https://play.google.com/store/apps/details?id=org.mariotaku.twidere"><img src="playstore.png" alt="Google Playstore"/></a>
+            <a href="https://f-droid.org/repository/browse/?fdfilter=twidere&amp;fdid=org.mariotaku.twidere"><img src="f-droid-repository.png" alt="F-Droid repository"/></a>
+            
+				</div>
+			</div>
+      
+      <!-- Impeller -->
+          <div class="media emph-Block">
+          <div class="media-Object">
+  				<a href="#!" class="pic-Rounded">
+						<img src="impeller.png" alt="impeller" width="50" height="50" />
+					</a>
+				</div>
+				<div class="media-Text">
+					<h1 class="eps">Impeller</h1>
+					<p>
+					  Impeller is one of the first open source mobile clients for <a href="http://pump.io">pump.io</a> and can be used e.g. for <a href="http://identi.ca">identi.ca</a>.
+					</p>
+          <ul>
+            <li>Price: free</li>
+            <li>Min. Android version: 4.0</li>
+            <li><a href="https://github.com/oshepherd/Impeller/">Sourcecode</a></li>
+            
+          </ul>
+          <hr />
+           <a href="https://play.google.com/store/apps/details?id=eu.e43.impeller"><img src="playstore.png" alt="Google Playstore"/></a>
+            <a href="https://f-droid.org/repository/browse/?fdfilter=impeller&amp;fdid=eu.e43.impeller"><img src="f-droid-repository.png" alt="F-Droid repository"/></a>
+            
+				</div>
+			</div>
+      
+      <!-- AndStatus -->
+          <div class="media emph-Block">
+          <div class="media-Object">
+    			<a href="#!" class="pic-Rounded">
+						<img src="andstatus.png" alt="andstatus" width="50" height="50" />
+					</a>
+				</div>
+				<div class="media-Text">
+					<h1 class="eps">AndStatus</h1>
+					<p>
+					  AndStatus is a very lightweight Twitter and <a href="http://status.net/">status.net</a>/<a href="http://www.gnu.org/software/social/">GNU Social</a> client that derived from AndTweet. It does not work with identi.ca anymore.
+					</p>
+          <ul>
+            <li>Price: free</li>
+            <li>Min. Android version: 1.6</li>
+            <li><a href="https://github.com/andstatus/andstatus">Sourcecode</a></li>
+          </ul>
+          <hr />
+            <a href="https://play.google.com/store/apps/details?id=org.andstatus.app"><img src="playstore.png" alt="Google Playstore"/></a>
+            <a href="https://f-droid.org/repository/browse/?fdid=org.andstatus.app"><img src="f-droid-repository.png" alt="F-Droid repository"/></a>
+				</div>
+			</div>
         </td>
         
       <!-- SocialNetworks:Notes -->
         <td style="width:25%">
-            We are still missing some good alternatives here. Know any? Write an <a href="support.html">email or fork the project on github</a> and add your favourite FOSS social media client via pull-request. 
+            <p>Twimight is collecting anonymous data for research. Decide for yourself, if you're ok with that.</p>
         </td>
       </tr>
     </table>
@@ -494,6 +568,31 @@
           <a href="https://play.google.com/store/apps/details?id=com.turtleplayer"><img src="playstore.png" alt="Google Playstore"/></a>
 				</div>
 			</div>
+      
+        <!-- AndLess -->
+          <div class="media emph-Block">
+          <div class="media-Object">
+  				<a href="#!" class="pic-Rounded">
+						<img src="andless.png" alt="andless" width="50" height="50" />
+					</a>
+				</div>
+				<div class="media-Text">
+					<h1 class="eps">andLess</h1>
+					<p>
+						andLess plays lossless files(flac, ape, mpc, wv, Apple(.m4a)).
+					</p>
+          <ul>
+            <li>Price: free</li>
+            <li>Min. Android version: 1.5</li>
+            <li><a href="http://code.google.com/p/andless/">Sourcecode</a></li>
+          </ul>
+          <hr />
+          <a href="https://play.google.com/store/apps/details?id=net.avs234"><img src="playstore.png" alt="Google Playstore"/></a>
+          <a href="https://f-droid.org/repository/browse/?fdfilter=andless&amp;fdid=net.avs234"><img src="f-droid-repository.png" alt="F-Droid repository"/></a>
+        	</div>
+			</div>
+      
+      
       </td>
         
       <!-- Audio:Notes -->
@@ -590,7 +689,7 @@
 				<div class="media-Text">
 					<h1 class="eps">K-9 Mail</h1>
 					<p>
-						K-9 Mail is a feature-rich client that even supports PGP.
+						K-9 Mail is a feature-rich client that supports POP3, IMAP, Exchange 2003/2007 (with WebDAV) and PGP-encryption.
 					</p>
           <ul>
             <li>Price: free</li>
@@ -801,16 +900,14 @@
           <hr />
           <a href="https://play.google.com/store/apps/details?id=com.nexes.manager"><img src="playstore.png" alt="Google Playstore"/></a>(Basic)
           <a href="https://play.google.com/store/apps/details?id=com.nexes.manager.tablet"><img src="playstore.png" alt="Google Playstore"/></a>(Tablet)
-          
-          
 				</div>
 			</div>
         </td>
         
       <!-- FileManager:Notes -->
-         <td style="width:25%">
-          notes
-          </td>
+        <td style="width:25%">
+          -
+        </td>
       </tr>
     </table>
     <!-- End FileManager -->
@@ -1056,7 +1153,7 @@
     <hr />
     <hr />
     <!-- Links to friends -->
-    <a href="https://en.wikipedia.org/wiki/List_of_free_and_open-source_Android_applications"><img src="wikipedia.png" alt="List of foss Android Apps on Wikipedia" /></a> - <a href="https://www.prism-break.org/ "><img src="prismbreak.png" alt="prism break"/></a> - <a href="https://www.eff.org/ "><img src="eff.png" alt="eff"/></a> - <a href="http://opensource.org/"><img src="osi_standard_logo.png" alt="OSI" /></a> - <a href="https://f-droid.org/"><img src="fdroid.png" alt="f-droid" /></a> -  <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fdroidbreak.neocities.org%2F"><img src="html5.png" alt="valid html5" /></a> 
+    <a href="https://en.wikipedia.org/wiki/List_of_free_and_open-source_Android_applications"><img src="wikipedia.png" alt="List of foss Android Apps on Wikipedia" /></a> - <a href="https://www.prism-break.org/ "><img src="prismbreak.png" alt="prism break"/></a> - <a href="https://www.eff.org/ "><img src="eff.png" alt="eff"/></a> - <a href="http://opensource.org/"><img src="osi_standard_logo.png" alt="OSI" /></a> - <a href="https://f-droid.org/"><img src="fdroid.png" alt="f-droid" /></a> -  <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fdroidbreak.neocities.org%2F"><img src="html5.png" alt="valid html5" /></a> - <a href="https://jquery.org"><img src="jquery.png" alt="jquery" /></a> - <a href="https://neocities.org"><img src="neocities.png" alt="neocities" /></a> 
     </main>
       
     <!-- Footer -->
