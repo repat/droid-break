@@ -11,6 +11,7 @@ You will find most of these apps in the [F-Droid](https://f-droid.org/ "F-Droid"
 
 ## Technical stuff
 * [neocities.org](neocities.org "neocities.org") doesn't allow folders, so everthing is in the main folder. A bit chaotic but it works I guess.
+* Please use just plain HTML5/CSS/JS, as no other language is supported(no PHP, Perl, Python, whatsorever)
 
 ## Planned features
 * [Localize with jquery-18n](https://github.com/recurser/jquery-i18n "jquery-i18n")
