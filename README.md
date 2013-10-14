@@ -9,6 +9,9 @@ Of course, github and neocities are not always in sync, so it might take a while
 
 You will find most of these apps in the [F-Droid](https://f-droid.org/ "F-Droid") repository. Also, you might want to consider to flash a custom ROM like [Cyanogen Mod](http://www.cyanogenmod.org/ "CyanogenMod") on your device. 
 
+## Categories
+Browser, Social Networks, Messenger, VoIP, Audio/Podcasts, Video, Email, Notes, News Reader, File Manager, Navigation, Keyboards, Cloud, Misc
+
 ## Technical stuff
 * [neocities.org](neocities.org "neocities.org") doesn't allow folders, so everthing is in the main folder. A bit chaotic but it works I guess.
 * Please use just plain HTML5/CSS/JS, as no other language is supported(no PHP, Perl, Python, whatsorever)
@@ -16,7 +19,7 @@ You will find most of these apps in the [F-Droid](https://f-droid.org/ "F-Droid"
 ## Planned features
 * [Localize with jquery-18n](https://github.com/recurser/jquery-i18n "jquery-i18n")
 * Make an easy form to submit apps
-* Star rating(get it from Google Play?)
+* Star rating
 
 ## Contact
 * http://repat.de
