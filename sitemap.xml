@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+      <loc>http://www.droid-break.info</loc>
+      <lastmod>2013-10-14</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1.0</priority>
+  </url>
+  <url>
+	  <loc>http://www.droid-break.info/about.html</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+	  <loc>http://www.droid-break.info/support.html</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+	  <loc>http://www.droid-break.info/sources.html</loc>
+      <changefreq>weekly</changefreq>
+   </url>
+</urlset> 
