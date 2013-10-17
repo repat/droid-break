@@ -18,4 +18,8 @@
 	  <loc>http://www.droid-break.info/sources.html</loc>
       <changefreq>weekly</changefreq>
    </url>
+   <url>
+	  <loc>http://www.droid-break.info/credits.html</loc>
+      <changefreq>weekly</changefreq>
+   </url>
 </urlset> 
