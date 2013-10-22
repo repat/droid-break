@@ -3,7 +3,7 @@ Droid-Break
 Droid-Break is a list of free and open source Android apps inspired by [prism-break.org](https://prism-break.org "prism-break"). We want to show you high quality alternatives to the big proprietary solutions. 
 Please note that open source apps don't guarantee absolute freedom, e.g. an open source Twitter client still sends everything to Twitters' servers. 
 Anyway, we believe it's the best we can come up with and that in many cases it's the better choice. 
-If you think an app is missing, please write an [email](http://droid-break.info/support.html "support") or fork the project on github and make a pull request. 
+If you think an app is missing, please write an [email](http://droid-break.info/support.html "support"), a [tweet](https://twitter.com/droidbreak "@droidbreak") or fork the project on github and make a pull request. 
 
 Of course, github and neocities are not always in sync, so it might take a while for the update to appear.
 
@@ -20,6 +20,10 @@ Browser, Social Networks, Messenger, VoIP, Audio/Podcasts, Video, Email, Notes, 
 * [Localize with jquery-18n](https://github.com/recurser/jquery-i18n "jquery-i18n")
 * Make an easy form to submit apps
 * Star rating
+
+## Social Media
+* [facebook](https://facebook.com/droidbreak "droidbreak on facebook")
+* [twitter](https://twitter.com/droidbreak "droidbreak on twitter")
 
 ## Contact
 * http://repat.de
