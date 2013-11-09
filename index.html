@@ -31,8 +31,8 @@
   <!-- localisation via jquery.18n.properties to come -->
   <script type="text/javascript" src="jquery.i18n.properties-min.js"></script>
   
-  <!-- Statcounter.com removed for github--->
-  
+  <!-- Statcounter.com removed-->
+
   </head>
   <body>
   <!-- Fork me on GitHub -->
@@ -66,11 +66,11 @@
        <strong>Droid-Break</strong> is a list of <em>free and open source</em> Android apps inspired by <a href="https://prism-break.org">prism-break.org.</a> We want to show you <em>high quality alternatives</em> to the big proprietary solutions.<br />
        Please note that open source apps don't guarantee absolute freedom, e.g. an open source Twitter client still sends everything to Twitters' servers.<br />
        Anyway, we believe it's the best we can come up with and that in many cases it's the better choice.<br />
-       If you think an app is missing please write an <a href="support.html">email</a>, a <a href="https://twitter.com/droidbreak">tweet</a> or fork the project on <a href="https://github.com/repat/droid-break">github</a> and make a pull request.<br />
+       If you think an app is missing please write an <a href="support.html">email</a>, a <a href="https://twitter.com/droidbreak">tweet</a>, a <a href="#disqus">disqus</a> comment or fork the project on <a href="https://github.com/repat/droid-break">github</a> and make a pull request.<br />
       </p>
       
       <p>
-      You will find most of these apps in the <a href="https://f-droid.org/">F-Droid</a> repository.  Also, you might want to consider flashing a ROM like <a href="http://www.cyanogenmod.org/">CyanogenMod</a> on your device.
+      You will find most of these apps in the <a href="https://f-droid.org/">F-Droid</a> repository.  Also, you might want to consider flashing a ROM like <a href="http://www.cyanogenmod.org/">CyanogenMod</a> or <a href="http://replicant.us/">Replicant</a> on your device.
       </p>
     </header>
     
@@ -903,27 +903,6 @@
 				</div>
 			</div>
       
-        <!-- MetaFilter -->
-          <div class="media emph-Block">
-          <div class="media-Object">
-  				<a href="#!" class="pic-Rounded">
-						<img src="metafilter.png" alt="metafilter" width="50" height="50" />
-					</a>
-				</div>
-				<div class="media-Text">
-					<h2 class="eps">MetaFilter</h2>
-					<p>
-            App for the MetaFilter web site: <a href="metafilter.com">metafilter.com</a>
-					</p>
-          <ul>
-            <li>Price: 1 &euro;</li>
-            <li>Min. Android version: 1.6</li>
-            <li><a href="https://github.com/mparramont/metafilter-for-android">Sourcecode</a></li>
-          </ul>
-          <hr />
-            <a href="https://play.google.com/store/apps/details?id=mpt.metafilter"><img src="playstore.png" alt="Google Playstore"/></a>
-				</div>
-			</div>
       
       <!-- FeedEx -->
           <div class="media emph-Block">
@@ -947,7 +926,31 @@
             <a href="https://f-droid.org/repository/browse/?fdid=net.fred.feedex"><img src="f-droid-repository.png" alt="F-Droid repository"/></a>
             
 				</div>
-			</div>      
+			</div>     
+      
+           <!-- RedReader -->
+          <div class="media emph-Block">
+          <div class="media-Object">
+      		<a href="#!" class="pic-Rounded">
+						<img src="redreader.png" alt="redreader" width="50" height="50" />
+					</a>
+				</div>
+				<div class="media-Text">
+					<h2 class="eps">RedReader</h2>
+					<p>
+            RedReader is a news reader for the popular website <a href="http://reddit.com">reddit.com</a>. It comes with multiple languages and tablet mode.
+					</p>
+          <ul>
+            <li>Price: free</li>
+            <li>Min. Android version: 2.2</li>
+            <li><a href="https://github.com/QuantumBadger/RedReader">Sourcecode</a></li>
+          </ul>
+          <hr />
+            <a href="https://play.google.com/store/apps/details?id=org.quantumbadger.redreader"><img src="playstore.png" alt="Google Playstore"/></a>
+            <a href="https://f-droid.org/repository/browse/?fdid=org.quantumbadger.redreader"><img src="f-droid-repository.png" alt="F-Droid repository"/></a>
+            
+				</div>
+			</div> 
         </td>
         
       <!-- NewsReader:Notes -->
@@ -1393,6 +1396,24 @@
       </tr>
     </table>
    <!-- End Misc -->
+   
+   <!-- disqus -->
+   <a id="disqus"></a>
+       <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'droidbreak'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
    
     <hr />
     <hr />
