@@ -1,6 +1,11 @@
 html{
     font-size: 16px;
 }
+#logo{
+    height: 4rem;
+    width: 4rem;
+    /*vertical-align: middle;*/
+}
 #forkMe{
     position: absolute;
     top: 0rem;
@@ -13,6 +18,9 @@ nav li{
 td.proprietary{
     width: 10%;
 }
+td.notes{
+    width: 25%;
+}
 ul.proprietary{
     list-style-type: none;
 /*    text-align: center; Check this later. */
@@ -24,4 +32,8 @@ img.proprietary{
 img.floss{
     width: 3rem;
     height: 3rem;
+}
+img.download{
+    width: 2.5rem;
+    height: 2.5rem;
 }
