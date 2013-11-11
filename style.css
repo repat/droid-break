@@ -1,5 +1,65 @@
 html{
     font-size: 16px;
+    margin: 0rem;
+    padding: 0rem;
+    border: 0rem;
+    outline: 0rem;
+}
+body{
+    line-height: 1.5; /* Change this to rems or something. */
+}
+h1{
+    font-size: 3.125rem; /* Maybe change to a friendlier number. */
+    font-weight: 400;
+}
+h2{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+hr{
+    border-top: 1px solid rgba(0,0,0,0.2); /* This seems way unnecessary. */
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    margin : 0.5rem 0rem;
+}
+strong{
+    font-weight: 700;
+}
+em{
+    font-style: italic;
+}
+img{
+    color: #ff0000;
+    font-style: italic;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0rem;
+}
+p,li,li a{ /* li p was here too, but it seemed unnecessary. li a might be. */
+    font-size: 1rem;
+    font-weight: 300;
+}
+header, footer, main, nav{
+    display: block; /* Might be unnecessary. */
+}
+ul{
+    margin: 0rem 0rem 0.5rem; /* This seems really weird. */
+    padding: 0rem 0rem 0rem 1.5rem;
+}
+a{
+    color: #d48371;
+}
+a:hover, a:active{
+    color: #bf523a;
+}
+a:visited{
+    color: #843928; /* Consider not having this. I think it looks weird. */
+}
+ul>li:last-child{ /* This also seems unoptimized. */
+    margin-bottom: 0rem;
+}
+nav li{
+    display: inline-block;
 }
 #logo{
     height: 4rem;
@@ -11,9 +71,6 @@ html{
     top: 0rem;
     right: 0rem;
     border: 0rem;
-}
-nav li{
-    display: inline-block;
 }
 td.proprietary{
     width: 10%;
