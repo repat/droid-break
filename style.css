@@ -1,39 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,300italic,400italic,600italic,700italic);
+*, *:before, *:after{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+[hidden]{ /* Find out what this does. */
+    display: none;
+}
 html{
     font-size: 16px;
+    overflow-y: scroll;
+    min-height: 100%; /**/
+}
+html, body, h1, h2, hr, p, img, table, td, th, tr{
     margin: 0rem;
     padding: 0rem;
     border: 0rem;
     outline: 0rem;
 }
+main div, div div{
+    padding: 0rem;
+}
+header, main, div, footer{
+    padding: 1.25rem;
+}
+header, nav, main, footer{
+    display: block;
+}
+header > :last-child, nav > :last-child, main > :last-child, footer > :last-child{
+    margin-bottom: 0rem;
+}
+
+
+
+h1, h2, li, p, table{
+    margin-bottom: 0.5rem; /* Fix this shit. */
+}
 body{
-    line-height: 1.5; /* Change this to rems or something. */
+    line-height: 1.5; /* 1.3 in default.css */ /* Change this to rems or something. */
+    letter-spacing: 0.01rem;
+    background-color: #f8f8f8;
+    font-size: 1rem;
+    font-family: "Open Sans", Georgia, "Times New Roman", Times, serif; /* Everything that's not Open Sans was in default.css. */
+    font-weight: 300;
+}
+footer{
+    background-color: #eeeeee;
+    border-top: 0.0625rem solid #cccccc;
+    font-size: 0.9rem;
 }
 h1{
     font-size: 3.125rem; /* Maybe change to a friendlier number. */
-    font-weight: 400;
+    font-weight: 400; /* 300 in default.css */
+}
+h1 a, h2 a{ /* Probably unnecessary. */
+    text-decoration: none;
+}
+h1 a:hover, h2 a:hover{ /* Probably unnecessary. */
+    text-decoration: underline;
 }
 h2{
     font-size: 2.5rem;
-    font-weight: 400;
+    font-weight: 400; /* 300 in default.css */
 }
 hr{
-    border-top: 1px solid rgba(0,0,0,0.2); /* This seems way unnecessary. */
+    border-top: 1px solid rgba(0,0,0,0.2); /* #dddddd in default.css *//* This seems way unnecessary. */
     border-bottom: 1px solid rgba(255,255,255,0.2);
+    display: block; /* Check these. */
     margin : 0.5rem 0rem;
+    height: 0.0625rem;
 }
 strong{
-    font-weight: 700;
+    font-weight: 700; /* bold in default.css */
 }
-em{
+em{ /* i in default.css */
     font-style: italic;
 }
 img{
     color: #ff0000;
     font-style: italic;
+    max-width: 100%; /* Seems unnecessary. *'
 }
 table{
+    background-color: #fafafa;
     border-collapse: collapse;
-    border-spacing: 0rem;
+    border-bottom: 0.625rem solid #cccccc;
+    border-right: 0.625rem solid #cccccc;
+    font-size: 1rem;
+    width: 100%;
+}
+tr{ /* table tr in default.css */
+    border-top: 0.0625rem solid #cccccc;
+}
+tr:nth-child(2){ /* table tr:nth-child(2n) in default.css */
+    background: #eeeeee;
+}
+th, td{ /* table th and table td in default.css */
+    border-left: 0.0625rem solid #cccccc;
+    padding: 0.25rem;
+    text-align: left;
+    font-size: 1rem;
+    font-weight; 300;
 }
 p,li,li a{ /* li p was here too, but it seemed unnecessary. li a might be. */
     font-size: 1rem;
@@ -42,24 +109,75 @@ p,li,li a{ /* li p was here too, but it seemed unnecessary. li a might be. */
 header, footer, main, nav{
     display: block; /* Might be unnecessary. */
 }
+header{
+    background-color: #ffffff;
+    border-bottom: 0.0625rem solid #dddddd;
+    font-size: 1.1rem;
+    text-shadow: 0rem 0.0625rem 0.0625rem rgba(255,255,255,0.2);
+}
+header h1{
+    font-weight: 600; /* Unnecessary. */
+}
+header > :last-child{
+    margin-bottom: 0rem; /* Yeah, you know by now. */
+}
 ul{
     margin: 0rem 0rem 0.5rem; /* This seems really weird. */
     padding: 0rem 0rem 0rem 1.5rem;
 }
 a{
-    color: #d48371;
+    color: #d48371; /* #3b8bba in default.css */
 }
 a:hover, a:active{
-    color: #bf523a;
+    color: #bf523a; /* #22516d in default.css */
+}
+a:focus, a:active{
+    outline: 0rem;
 }
 a:visited{
-    color: #843928; /* Consider not having this. I think it looks weird. */
+    color: #843928; /* #163446 in default.css *//* Consider not having this. I think it looks weird. */
 }
-ul>li:last-child{ /* This also seems unoptimized. */
+ul>li:last-child, .media .media-Text>:last-child, .emph-Block>:last-child{ /* This also seems unoptimized. */
     margin-bottom: 0rem;
+}
+nav{
+    background-color: rgba(255,255,255,0.3);
+    border: 0.0625rem solid rgba(100,100,100,02);
+}
+nav ul{
+    font-size: 0rem;
+    list-style: none;
+    border: 0.0625rem solid #cccccc;
+    margin: 0rem; /* Probably unnecesary. */
+    /*padding: 0rem; /* Pretty fucking unnecessary. */
+    padding: 0.25rem; /* 0rem in default.css */
+    *zoom: 1; /* Does not seem to do jack shit. */
+}
+nav ul:before, nav ul:after, .media:before, .media:after{
+    content: ""; /* Check these. */
+    display: table;
+}
+nav ul:after, .media:after{
+    clear: both;
 }
 nav li{
     display: inline-block;
+    font-size: 1.125rem;
+    margin: 0rem; /* Probably unnecessary. */
+}
+nav li:last-child a{
+    border-right: none;
+}
+nav a{
+    display: inline-block;
+    padding: 0.25rem 0.5rem; /* 0.25rem 0.75rem in default.css */
+    text-decoration: underline; /* Probably unnecessary but explicit > implicit? */
+}
+nav > a:last-child{
+    border-right: none;
+}
+nav a:hover{
+    text-decoration: none;
 }
 #logo{
     height: 4rem;
@@ -79,7 +197,7 @@ td.notes{
     width: 25%;
 }
 ul.proprietary{
-    list-style-type: none;
+    /*list-style-type: none;
 /*    text-align: center; Check this later. */
 }
 img.proprietary{
@@ -94,3 +212,67 @@ img.download{
     width: 2.5rem;
     height: 2.5rem;
 }
+.pic-Rounded{
+    display: inline-block;
+    overflow: hidden;
+    width: 5.625rem;
+    border: 0.0625rem solid #ffffff; /* 1px */
+    border-radius: 0.25rem; /* 4px */
+    background-clip: padding-box;
+    box-shadow: 0rem 0.5rem 0.5rem -0.5rem rgba(0,0,0,0.5);
+    -moz-border-radius: 0.25rem; /* 4px */
+    -moz-box-shadow: 0rem 0.5rem 0.5rem -0.5rem rgba(0,0,0,0.5); /* 8px */
+    -webkit-border-radius: 0.25rem; /* 4px */
+    -webkit-box-shadow: 0rem 0.5rem 0.5rem -0.5rem rgba(0,0,0,0.5);
+    /* For some fucking reason there were other values for the same
+    * property and class two lines down and I have no fucking idea why
+    * anyone would do this, like seriously, the fuck, but I'm
+    * including them incase of, gee, I don't konw, nuclear war
+    * or something. Fuck.
+    * border-radius: 6.25rem;
+    * -moz-border-radius: 6.25rem;
+    * -webkit-border-radius: 6.25rem;
+    * */
+}
+.pic-Rounded img{
+    display: block; /* Might be unnecessary. Aren't all imgs blocks? */
+}
+.media{
+    margin-bottom: 1rem;
+    position: relative;
+    z-index: 2; /* What is this? */
+    *zoom: 1; /* Doesn't seem to do anything. */
+}
+.media .media-Object{
+    float: left;
+    margin: 0rem 1rem 0.5rem 0rem;
+    max-width: 30%;
+}
+.emph-Block{
+    background-color: #fafafa;
+    background-clip: padding-box;
+    border: 0.0625rem solid #dddddd;
+    border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    -webkit-border-radius: 0.25rem;
+    box-shadow:  0rem 0.5rem 0.5rem -0.5rem rgba(0,0,0,0.5); /* Used elsewhere. */
+    -moz-box-shadow:  0rem 0.5rem 0.5rem -0.5rem rgba(0,0,0,0.5); /* Used elsewhere. */
+    -webkit-box-shadow: 0rem 0.5rem 0.5rem -0.5rem rgba(0,0,0,0.5); /* Used elsewhere. */
+    margin-bottom: 1rem;
+    min-height: 3.125rem;
+    padding: 1rem;
+}
+::selection{
+    background-color: #54a4a3;
+    color: #eeeeee;
+    text-shadow: none;
+}
+::-moz-selection{
+    background-color: #54a4a3;
+    color: #eeeeee;
+    text-shadow: none;
+}
+svg:not(:root){
+    overflow: hidden;
+}
+
