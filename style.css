@@ -12,7 +12,7 @@ html{
     overflow-y: scroll;
     min-height: 100%; /**/
 }
-html, body, h1, h2, hr, p, img, table, td, th, tr, ul.proprietary{
+html, body, h1, h2, h3, hr, p, img, table, td, th, tr, ul.proprietary{
     margin: 0rem;
     padding: 0rem;
     border: 0rem;
@@ -30,7 +30,7 @@ header, nav, main, footer{
 header > :last-child, nav > :last-child, main > :last-child, footer > :last-child{
     margin-bottom: 0rem;
 }
-h1, h2, p, table{
+h1, h2, h3, p, table{
     margin-bottom: 0.5rem; /* Fix this shit. */
 }
 body{
@@ -63,6 +63,10 @@ h1 a:hover, h2 a:hover{ /* Probably unnecessary. */
 h2{
     font-size: 2.5rem;
     font-weight: 400; /* 300 in default.css */
+}
+h3{
+    font-size: 2rem;
+    font-weight: 400;
 }
 hr{
     border-top: 1px solid rgba(0,0,0,0.2); /* #dddddd in default.css *//* This seems way unnecessary. */
@@ -275,6 +279,9 @@ img.friends{
 .eps{
     font-size: 1.25rem;
     font-weight: 300;
+}
+.txt-Center{
+    text-align: center;
 }
 ::selection{
     background-color: #54a4a3;
