@@ -12,7 +12,7 @@ html{
     overflow-y: scroll;
     min-height: 100%; /**/
 }
-html, body, h1, h2, hr, p, img, table, td, th, tr{
+html, body, h1, h2, hr, p, img, table, td, th, tr, ul.proprietary{
     margin: 0rem;
     padding: 0rem;
     border: 0rem;
@@ -30,10 +30,7 @@ header, nav, main, footer{
 header > :last-child, nav > :last-child, main > :last-child, footer > :last-child{
     margin-bottom: 0rem;
 }
-
-
-
-h1, h2, li, p, table{
+h1, h2, p, table{
     margin-bottom: 0.5rem; /* Fix this shit. */
 }
 body{
@@ -49,9 +46,13 @@ footer{
     border-top: 0.0625rem solid #cccccc;
     font-size: 0.9rem;
 }
+footer a, a.friends{
+    text-decoration: none;
+}
 h1{
-    font-size: 3.125rem; /* Maybe change to a friendlier number. */
+    font-size: 3.125em; /* Maybe change to a friendlier number. */
     font-weight: 400; /* 300 in default.css */
+    letter-spacing: 0.01rem;
 }
 h1 a, h2 a{ /* Probably unnecessary. */
     text-decoration: none;
@@ -79,20 +80,20 @@ em{ /* i in default.css */
 img{
     color: #ff0000;
     font-style: italic;
-    max-width: 100%; /* Seems unnecessary. *'
+    max-width: 100%; /* Seems unnecessary. */
 }
 table{
     background-color: #fafafa;
     border-collapse: collapse;
-    border-bottom: 0.625rem solid #cccccc;
-    border-right: 0.625rem solid #cccccc;
+    border-bottom: 0.0625rem solid #cccccc;
+    border-right: 0.0625rem solid #cccccc;
     font-size: 1rem;
     width: 100%;
 }
 tr{ /* table tr in default.css */
     border-top: 0.0625rem solid #cccccc;
 }
-tr:nth-child(2){ /* table tr:nth-child(2n) in default.css */
+tr:nth-child(2n){ /* table tr:nth-child(2n) in default.css */
     background: #eeeeee;
 }
 th, td{ /* table th and table td in default.css */
@@ -103,11 +104,8 @@ th, td{ /* table th and table td in default.css */
     font-weight; 300;
 }
 p,li,li a{ /* li p was here too, but it seemed unnecessary. li a might be. */
-    font-size: 1rem;
+//    font-size: 1rem;
     font-weight: 300;
-}
-header, footer, main, nav{
-    display: block; /* Might be unnecessary. */
 }
 header{
     background-color: #ffffff;
@@ -116,7 +114,10 @@ header{
     text-shadow: 0rem 0.0625rem 0.0625rem rgba(255,255,255,0.2);
 }
 header h1{
-    font-weight: 600; /* Unnecessary. */
+    font-weight: 600; /* Might be unnecessary. */
+}
+header > p:nth-child(3){
+    margin-top: 1.5rem;
 }
 header > :last-child{
     margin-bottom: 0rem; /* Yeah, you know by now. */
@@ -142,15 +143,14 @@ ul>li:last-child, .media .media-Text>:last-child, .emph-Block>:last-child{ /* Th
 }
 nav{
     background-color: rgba(255,255,255,0.3);
-    border: 0.0625rem solid rgba(100,100,100,02);
+    border: 0.0625rem solid rgba(100,100,100,0.2);
 }
 nav ul{
     font-size: 0rem;
     list-style: none;
-    border: 0.0625rem solid #cccccc;
+/*    border: 0.0625rem solid #cccccc; */
     margin: 0rem; /* Probably unnecesary. */
-    /*padding: 0rem; /* Pretty fucking unnecessary. */
-    padding: 0.25rem; /* 0rem in default.css */
+    padding: 0rem; /* 0.25rem in brass-min.css */
     *zoom: 1; /* Does not seem to do jack shit. */
 }
 nav ul:before, nav ul:after, .media:before, .media:after{
@@ -179,11 +179,10 @@ nav > a:last-child{
 nav a:hover{
     text-decoration: none;
 }
-#logo{
-    height: 4rem;
-    width: 4rem;
-    /*vertical-align: middle;*/
-}
+/*#logo{
+    max-height: 4rem;
+    max-width: 4rem;
+}*/
 #forkMe{
     position: absolute;
     top: 0rem;
@@ -192,13 +191,17 @@ nav a:hover{
 }
 td.proprietary{
     width: 10%;
+    font-size: 0.75rem;
 }
-td.notes{
+td.notes{ /* Don't think I need td here. */
     width: 25%;
 }
 ul.proprietary{
-    /*list-style-type: none;
-/*    text-align: center; Check this later. */
+    list-style-type: none;
+    text-align: center; /* Check this later. */
+}
+ul.proprietary > li{
+    margin-bottom: 2rem;
 }
 img.proprietary{
     height: 1.5rem; /*2rem?*/
@@ -212,17 +215,20 @@ img.download{
     width: 2.5rem;
     height: 2.5rem;
 }
+img.friends{
+    max-height: 3.75rem;
+}
 .pic-Rounded{
     display: inline-block;
     overflow: hidden;
-    width: 5.625rem;
+ /*   width: 5.625rem; */
     border: 0.0625rem solid #ffffff; /* 1px */
-    border-radius: 0.25rem; /* 4px */
+    border-radius: 6.25rem;
+    -moz-border-radius: 6.25rem;
+    -webkit-border-radius: 6.25rem;
     background-clip: padding-box;
     box-shadow: 0rem 0.5rem 0.5rem -0.5rem rgba(0,0,0,0.5);
-    -moz-border-radius: 0.25rem; /* 4px */
     -moz-box-shadow: 0rem 0.5rem 0.5rem -0.5rem rgba(0,0,0,0.5); /* 8px */
-    -webkit-border-radius: 0.25rem; /* 4px */
     -webkit-box-shadow: 0rem 0.5rem 0.5rem -0.5rem rgba(0,0,0,0.5);
     /* For some fucking reason there were other values for the same
     * property and class two lines down and I have no fucking idea why
@@ -232,6 +238,10 @@ img.download{
     * border-radius: 6.25rem;
     * -moz-border-radius: 6.25rem;
     * -webkit-border-radius: 6.25rem;
+    * Old ones:
+    * border-radius: 0.25rem;
+    * -moz-border-radius: 0.25rem;
+    * -webkit-border-radius: 0.25rem;
     * */
 }
 .pic-Rounded img{
@@ -261,6 +271,10 @@ img.download{
     margin-bottom: 1rem;
     min-height: 3.125rem;
     padding: 1rem;
+}
+.eps{
+    font-size: 1.25rem;
+    font-weight: 300;
 }
 ::selection{
     background-color: #54a4a3;
