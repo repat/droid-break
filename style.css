@@ -11,8 +11,7 @@ html{
     font-size: 16px;
     overflow-y: scroll;
     min-height: 100%; /**/
-}
-html, body, h1, h2, h3, hr, p, img, table, td, th, tr, ul.proprietary{
+} html, body, h1, h2, h3, hr, p, img, table, td, th, tr, ul.proprietary{
     margin: 0rem;
     padding: 0rem;
     border: 0rem;
@@ -282,6 +281,18 @@ img.friends{
 }
 .txt-Center{
     text-align: center;
+}
+.topLink{
+    float: right;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: normal;
+    position: relative;
+    top: 3rem;
+}
+.topLink,.topLink:hover,.topLink:visited,.topLink:focus{
+    color: #cccccc;
+    text-decoration: none;
 }
 ::selection{
     background-color: #54a4a3;
