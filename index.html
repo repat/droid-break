@@ -41,6 +41,7 @@
     
   </head>
   <body>
+    <a id="top" />
     <!-- Fork me on GitHub -->
     <a href="https://github.com/repat/droid-break" target="_blank">
       <img src="//s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" id="forkMe" />
@@ -70,8 +71,8 @@
         </ul>
       </nav>
       <p>
-	<strong>Droid-Break</strong> is a list of <em>free and open source</em> Android apps inspired by <a href="https://prism-break.org" target="_blank">PRISM Break</a>.
-	We want to show you <em>high quality alternatives</em> to the big proprietary solutions.<br />
+  <strong>Droid-Break</strong> is a list of <em>free and open source</em> Android apps inspired by <a href="https://prism-break.org" target="_blank">PRISM Break</a>.
+  We want to show you <em>high quality alternatives</em> to the big proprietary solutions.<br />
 	Please note that open source apps don't guarantee absolute freedom, e.g., an open source Twitter client still sends everything to Twitters' servers.<br />
 	Anyway, we believe it's the best we can come up with and that in many cases it's the better choice.<br />
 	If you think an app is missing please write an <a href="support.html">email</a>, a <a href="https://twitter.com/droidbreak" target="_blank">tweet</a>, a <a href="#disqus">Disqus</a> comment, or fork the project on <a href="https://github.com/repat/droid-break" target="_blank">GitHub</a> and make a pull request.<br />
@@ -84,7 +85,7 @@
     
     <main>
       <!-- Start Browser -->
-      <h2><a id="browser">Browser</a></h2>
+      <h2><a id="browser">Browser</a><a href="#top" class="topLink">^</a></h2>
       <table>
 	
 	<!-- Table headers -->
@@ -124,7 +125,7 @@
 		</p>
 		<ul>
 		  <li>Price: Free</li>
-		  <li>Min. Android version: varies</li>
+		  <li>Min. Android version: 2.2</li>
 		  <li><a href="https://hg.mozilla.org/" target="_blank">Source code</a></li>
 		</ul>
 		<hr />
@@ -189,7 +190,7 @@
       <!-- End Browser -->
       
       <!-- Start SocialNetworks -->
-      <h2><a id="socialnetworks">Social Networks</a></h2>
+      <h2><a id="socialnetworks">Social Networks</a><a href="#top" class="topLink">^</a></h2>
       <table>
 	<tr>
           <th>Proprietary</th>
@@ -211,6 +212,30 @@
           
           <!-- SocialNetworks:Free alternative -->
           <td>
+          
+          <!-- Tinfoil -->
+            <div class="media emph-Block">
+              <div class="media-Object">
+		<a href="#!" class="pic-Rounded">
+		  <img src="tinfoil.png" alt="Tinfoil" class="floss" />
+		</a>
+	      </div>
+	      <div class="media-Text">
+		<h2 class="eps">Tinfoil</h2>
+		<p>
+		  Tinfoil is a <a href="https://en.wikipedia.org/wiki/Wrapper">wrapper</a> for the Facebook mobile website.
+		</p>
+		<ul>
+		  <li>Price: Free</li>
+		  <li>Min. Android version: varies</li>
+		  <li><a href="https://github.com/velazcod/Tinfoil-Facebook" target="_blank">Source code</a></li>
+		</ul>
+		<hr />
+		<a href="https://play.google.com/store/apps/details?id=com.danvelazco.fbwrapper" target="_blank"><img src="playstore.png" alt="Google Playstore" class="download" /></a>
+		<a href="https://f-droid.org/repository/browse/?fdid=com.danvelazco.fbwrapper" target="_blank"><img src="fdroid.png" alt="F-Droid repository" class="download" /></a>
+		
+	      </div>
+	    </div>
 
 	    <!-- Twidere -->
             <div class="media emph-Block">
@@ -286,14 +311,14 @@
           
 	  <!-- SocialNetworks:Notes -->
           <td class="notes">
-             <p>We are still missing some good alternatives here. Know any? Write an email or fork the project on GitHub and add your favourite FOSS social media app via pull-request. </p>
+             <p>Tinfoil might promote non-free add-ons, be careful.</p>
           </td>
 	</tr>
       </table>
       <!-- End SocialNetworks -->
       
       <!-- Start Messenger-->
-      <h2><a id="messenger">Messenger</a></h2>
+      <h2><a id="messenger">Messenger</a><a href="#top" class="topLink">^</a></h2>
       <table>
 	<tr>
           <th>Proprietary</th>
@@ -327,7 +352,7 @@
 	      <div class="media-Text">
 		<h2 class="eps">Xabber</h2>
 		<p>
-		  Xabber is a famous XMPP client with OTR support.
+		  Xabber is a famous XMPP client with <a href="https://en.wikipedia.org/wiki/Off-the-Record_Messaging">OTR</a> support.
 		</p>
 		<ul>
 		  <li>Price: Free (supporter version: 3 &euro;)</li>
@@ -352,7 +377,7 @@
 	      <div class="media-Text">
 		<h2 class="eps">ChatSecure</h2>
 		<p>
-		  ChatSecure is an XMPP client with OTR support developed by the <a href="https://guardianproject.info" target="_blank">Guardian Project</a>. It was formerly known as Gibberbot.
+		  ChatSecure is an XMPP client with <a href="https://en.wikipedia.org/wiki/Off-the-Record_Messaging">OTR</a> support developed by the <a href="https://guardianproject.info" target="_blank">Guardian Project</a>. It was formerly known as Gibberbot.
 		</p>
 		<ul>
 		  <li>Price: Free</li>
@@ -388,6 +413,28 @@
 	      </div>
 	    </div>
 	    
+	       <!-- Telegram -->
+	    <div class="media emph-Block">
+              <div class="media-Object">
+		<a href="#!" class="pic-Rounded">
+		  <img src="telegram.png" alt="telegram" class="floss" />
+		</a>
+	      </div>
+	      <div class="media-Text">
+		<h2 class="eps">Telegram</h2>
+		<p>
+		  Telegram is an unencrypted messenger just like Whatsapp but supports encryption when both participants are online. It also has all the other things you would want from a messenger like group chats and photo/video sharing .
+		</p>
+		<ul>
+		  <li>Price: Free</li>
+		  <li>Min. Android version: 2.2</li>
+		  <li><a href="https://github.com/DrKLO/Telegram" target="_blank">Source code</a></li>
+		</ul>
+		<hr />
+		<a href="https://play.google.com/store/apps/details?id=org.telegram.android" target="_blank"><img src="playstore.png" alt="Google Playstore" class="download" /></a>
+	      </div>
+	    </div>
+	    
           </td>
           
 	  <!-- Messenger:Notes -->
@@ -404,7 +451,7 @@
       <!-- End Messenger -->
       
       <!-- Start VoIP -->
-      <h2><a id="voip">VoIP</a></h2>
+      <h2><a id="voip">VoIP</a><a href="#top" class="topLink">^</a></h2>
       
       <table>
 	<tr>
@@ -488,7 +535,7 @@
 		</p>
 		<ul>
 		  <li>Price: Free</li>
-		  <li>Min. Android version: varies</li>
+		  <li>Min. Android version: 1.6</li>
 		  <li><a href="http://code.google.com/p/csipsimple/" target="_blank">Source code</a></li>
 		</ul>
 		<hr />
@@ -530,7 +577,7 @@
       <!-- End VoIP -->
       
       <!-- Start Audio -->
-      <h2><a id="audio">Audio Players and Podcatcher</a></h2>
+      <h2><a id="audio">Audio Players and Podcatcher</a><a href="#top" class="topLink">^</a></h2>
       <table>
 	<tr>
           <th>Proprietary</th>
@@ -639,7 +686,7 @@
 		</p>
 		<ul>
 		  <li>Price: Free</li>
-		  <li>Min. Android version: varies</li>
+		  <li>Min. Android version: 2.1</li>
 		  <li><a href="http://wiki.videolan.org/Developers_Corner">Source code</a></li>
 		</ul>
 		<hr />
@@ -687,7 +734,7 @@
       
       
       <!-- Start Video -->
-      <h2><a id="video">Video</a></h2>
+      <h2><a id="video">Video</a><a href="#top" class="topLink">^</a></h2>
       
       <table>
 	<tr>
@@ -723,7 +770,7 @@
 		</p>
 		<ul>
 		  <li>Price: Free</li>
-		  <li>Min. Android version: varies</li>
+		  <li>Min. Android version: 2.1</li>
 		  <li><a href="http://wiki.videolan.org/Developers_Corner">Source code</a></li>
 		</ul>
 		<hr />
@@ -742,7 +789,7 @@
       <!-- End Video -->
       
       <!-- Start EMail -->
-      <h2><a id="email">Email</a></h2>
+      <h2><a id="email">Email</a><a href="#top" class="topLink">^</a></h2>
       <table>
 	<tr>
           <th>Proprietary</th>
@@ -795,7 +842,7 @@
       <!-- End Email -->
       
       <!-- Start Notes -->
-      <h2><a id="notes">Notes</a></h2>
+      <h2><a id="notes">Notes</a><a href="#top" class="topLink">^</a></h2>
       <table>
 	<tr>
           <th>Proprietary</th>
@@ -897,7 +944,7 @@
       <!-- End Notes -->
       
       <!-- Start NewsReader -->
-      <h2><a id="newsreader">News Reader</a></h2>
+      <h2><a id="newsreader">News Reader</a><a href="#top" class="topLink">^</a></h2>
       <table>
 	<tr>
           <th>Proprietary</th>
@@ -987,18 +1034,43 @@
 		
 	      </div>
 	    </div> 
+      
+      <!-- TTRSS-Reader -->
+            <div class="media emph-Block">
+              <div class="media-Object">
+                      <a href="#!" class="pic-Rounded">
+                 <img src="ttrss-reader.png" alt="ttrss-reader" class="floss" />
+                </a>
+         </div>
+         <div class="media-Text">
+                <h2 class="eps">TTRSS-Reader</h2>
+                <p>
+                   An offline reader that works with the <a href="https://en.wikipedia.org/wiki/Tiny_Tiny_RSS">Tiny Tiny RSS</a> web-based feed reader/aggregator.
+                </p>
+                <ul>
+                 <li>Price: Free</li>
+                 <li>Min. Android version: 2.2</li>
+                 <li><a href="http://code.google.com/p/ttrss-reader-fork/source/checkout">Source code</a></li>
+                </ul>
+                <hr />
+                <a href="https://play.google.com/store/apps/details?id=org.ttrssreader" target="_blank"><img src="playstore.png" alt="Google Playstore" class="download" /></a>
+                <a href="https://f-droid.org/repository/browse/?fdid=org.ttrssreader" target="_blank"><img src="fdroid.png" alt="F-Droid repository" class="download" /></a>
+         </div>
+         </div>
+
+
           </td>
           
 	  <!-- NewsReader:Notes -->
           <td class="notes">
-            We are still missing some good alternatives here. Know any? Write an <a href="support.html">email or fork the project on GitHub</a> and add your favourite FOSS news reader via pull-request. 
+         
           </td>
 	</tr>
       </table>
       <!-- End NewsReader -->
       
       <!-- Start FileManager -->
-      <h2><a id="filemanager">File Manager</a></h2>
+      <h2><a id="filemanager">File Manager</a><a href="#top" class="topLink">^</a></h2>
       <table>
 	<tr>
           <th>Proprietary</th>
@@ -1032,7 +1104,7 @@
 		</p>
 		<ul>
 		  <li>Price: Free</li>
-		  <li>Min. Android version: varies</li>
+		  <li>Min. Android version: 1.6</li>
 		  <li><a href="https://github.com/openintents/filemanager">Source code</a></li>
 		</ul>
 		<hr />
@@ -1096,7 +1168,7 @@
       <!-- End FileManager -->
       
       <!-- Start Navigation -->
-      <h2><a id="navigation" >Navigation</a></h2>
+      <h2><a id="navigation" >Navigation</a><a href="#top" class="topLink">^</a></h2>
       <table>
 	<tr>
           <th>Proprietary</th>
@@ -1131,7 +1203,7 @@
 		</p>
 		<ul>
 		  <li>Price: Free for 10 regions (unlimited regions: 5.99 &euro;)</li>
-		  <li>Min. Android version: varies</li>
+		  <li>Min. Android version: 2.1</li>
 		  <li><a href="http://code.google.com/p/osmand/">Source code</a></li>
 		</ul>
 		<hr /> 
@@ -1175,7 +1247,7 @@
       <!-- End Navigation -->
       
       <!-- Begin Keyboards -->
-      <h2><a id="keyboards">Keyboards</a></h2>
+      <h2><a id="keyboards">Keyboards</a><a href="#top" class="topLink">^</a></h2>
       <table>
 	<tr>
           <th>Proprietary</th>
@@ -1251,7 +1323,7 @@
       <!-- End Keyboards -->
       
       <!-- Begin Cloud -->
-      <h2><a id="cloud">Cloud</a></h2>
+      <h2><a id="cloud">Cloud</a><a href="#top" class="topLink">^</a></h2>
       <table>
 	<tr>
           <th>Proprietary</th>
@@ -1307,7 +1379,7 @@
       <!-- End Cloud -->
       
       <!-- Start Misc -->
-      <h2><a id="misc">Misc</a></h2>
+      <h2><a id="misc">Misc</a><a href="#top" class="topLink">^</a></h2>
       <table>
 	<tr>
           <th>Proprietary</th>
@@ -1344,7 +1416,7 @@
 		</p>
 		<ul>
 		  <li>Price: Free </li>
-		  <li>Min. Android version: varies</li>
+		  <li>Min. Android version: 1.1</li>
 		  <li><a href="https://github.com/openintents/flashlight">Source code</a></li>
 		</ul>
 		<hr />
@@ -1490,7 +1562,7 @@
 	<img src="osi_standard_logo.png" alt="OSI" class="friends" />
 	</a>
 	<a href="https://f-droid.org/" target="_blank" class="friends">
-	<img src="fdroid.png" alt="f-droid" class="friends" />
+	<img src="fdroidbig.png" alt="f-droid" class="friends" />
 	</a>
 	<a href="http://validator.w3.org/check?uri=http%3A%2F%2Fdroidbreak.neocities.org%2F" target="_blank" class="friends">
 	<img src="html5.png" alt="valid html5" class="friends" />
