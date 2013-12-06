@@ -38,6 +38,16 @@
     var scJsHost = (("https:" == document.location.protocol) ? "https://secure." : "http://www.");
     document.write("<script type='text/javascript' src='" + scJsHost + "statcounter.com/counter/counter.js'></"+"script>");
    </script>
+   
+   <!-- jQuery scroll slowly to #top -->
+   <script type ="text/javascript">
+   $( document ).ready( function(){ ;
+    $("a[href='#top']").click(function() {
+      $("html, body").animate({ scrollTop: 0 }, "slow");
+      return false;
+    });
+   })
+   </script>
     
   </head>
   <body>
