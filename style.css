@@ -107,7 +107,7 @@ th, td{ /* table th and table td in default.css */
     font-weight; 300;
 }
 p,li,li a{ /* li p was here too, but it seemed unnecessary. li a might be. */
-//    font-size: 1rem;
+    /*font-size: 1rem;*/
     font-weight: 300;
 }
 header{
