@@ -1,24 +1,19 @@
-var qrCode = '.qrCode';
-var qrBackground = '#qrBackground';
-
-
 $(document).ready(function(){
     $('.qr').click(function(){
         qrName = $(this).attr('id');
-        $('body').prepend('<div id="qrBackground"></div><div class="qrCode"><p class="qrCode">Firefox<br>market://details?id=org.mozilla.firefox</p><img src="'+qrName+'.gif" alt="'+qrName+'" class="qrCode" /></div>');
-        qrTop = $('div'+qrCode).height() / 2;
-        qrRight = $('div'+qrCode).width() / 2;
-        $('div'+qrCode).css({"margin-top": -qrTop, "margin-right": -qrRight});
-        $('p'+qrCode).css({"margin-top": -qrTop + 12, "margin-right": -$('p'+qrCode).width()/2}); // Fix this shit.
-        $('img'+qrCode).css({"margin-top": -qrTop + 12, "margin-right": -qrRight + 12});
-        $(qrBackground).fadeIn('slow');
-        $(qrCode).fadeIn('slow');
+        $('body').prepend('<div id="qrFade"></div><div id="qrBackground"><div id="qrText"><h1>'+qrName+'</h1><h4>Scan using a barcode scanner.</h4></div><img src="'+qrName+'.gif" alt="'+qrName+' QR" id="qrCode" /></div>');
+        $('#qrFade').fadeIn('slow');
+        $('#qrBackground').fadeIn('slow');
+        $('#qrText').fadeIn('slow');
+        $('#qrCode').fadeIn('slow');
     });
 });
 
-$(document).on('click', qrBackground, function(){
-    $(qrBackground).remove();
-    $(qrCode).remove();
+$(document).on('click', '#qrFade', function(){
+    $('#qrFade').remove();
+    $('#qrBackground').remove();
+    $('#qrText').remove();
+    $('#qrCode').remove();
 });
 
 
