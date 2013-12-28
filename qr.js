@@ -86,7 +86,7 @@ function appNames(appID){
             return 'Xabber';
         case 'zirco':
             return 'Zirco Browser';
-        case 'rarcodescanner':
+        case 'barcodescanner':
             return 'Barcode Scanner';
         default:
             return appID;
@@ -98,6 +98,9 @@ $(document).ready(function(){
         qrName = $(this).attr('id');
         appName = appNames(qrName);
         $('body').prepend('<div id="qrFade"></div><div class="emph-Block" id="qrBackground"><div id="qrText"><h2>'+appName+'</h2><hr><h4>Scan using a barcode scanner.</h4></div><img src="'+qrName+'.gif" alt="'+qrName+' QR" id="qrCode" /></div>');
+        marginTop = $('#qrBackground').height()/2;
+        marginRight = $('#qrBackground').width()/2;
+        $('#qrBackground').css({'margin-top': -marginTop, 'margin-right': -marginRight});
         $('#qrFade').fadeIn('slow');
         $('#qrBackground').fadeIn('slow');
         $('#qrText').fadeIn('slow');
