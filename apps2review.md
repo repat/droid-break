@@ -31,6 +31,12 @@
 * https://play.google.com/store/apps/details?id=com.eztransition.tasquid
 * via: https://twitter.com/amenthes_de/status/404632055205478401
 
+### OpenDocument Reader
+* https://github.com/TomTasche/OpenDocument.droid
+* https://play.google.com/store/apps/details?id=at.tomtasche.reader
+* http://blog.tomtasche.at/p/openoffice-document-reader_9.html
+via: google
+
 ## Messenger
 ### Kontalk
 * https://code.google.com/p/kontalk/
@@ -41,7 +47,7 @@
 ## Audio Player
 ### Apollo-CM
 * https://github.com/adneal/Apollo-CM
-* nicht in Google Play
+* not in Google Play
 
 ## Navigation
 ### Liberario
