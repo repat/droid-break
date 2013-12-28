@@ -37,7 +37,7 @@ body{
     letter-spacing: 0.01rem;
     background-color: #f8f8f8;
     font-size: 1rem;
-    font-family: "Open Sans", Georgia, "Times New Roman", Times, serif; /* Everything that's not Open Sans was in default.css. */
+    font-family: "Open Sans", Georgia, sans-serif; /* Used to be Times New and serif, but that looked like shit. */
     font-weight: 300;
 }
 footer{
