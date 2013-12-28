@@ -326,8 +326,6 @@ svg:not(:root){
 
 #qrBackground{
     background-color: #ffffff;
-    /*min-width: 24.25rem;
-    min-height: 10.25rem;*/
     z-index: 8;
     opacity: 1;
     display: none;
@@ -335,32 +333,15 @@ svg:not(:root){
     top: 50%;
     right: 50%;
     padding: 0rem;
-    margin-top: -5rem;
-    margin-right: -12rem;
 }
 
 #qrText{
-    /*background-color: #eeeeee;*/
-    word-wrap: break-word;
     display: inline-block;
     text-align: center;
-/*    min-width: 13rem;
-    min-height: 7.75rem;
-    /*position: relative;
-    /*top: +1rem;
-    bottom: +1rem;
-    left: +1rem*
-    margin: 0.25rem 0rem 0rem 0.25rem;*/
     margin: 1rem 0.5rem 1rem 1rem;
 }
 
 #qrCode{
-    min-width: 8.25rem; /* Check this. */
     vertical-align: top;
-    display: inline-block;
-    /*position: relative;
-    /*top: +1rem;
-    /*right: -1.75rem;*/
-    /*right: +1rem;*/
     margin: 1rem 1rem 1rem 0.5rem;
 }
