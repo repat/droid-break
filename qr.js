@@ -1,3 +1,6 @@
+// Function for returning the aesthetically pleasing stylization of an app name
+// The case is the id of the app in the HTML, the return is what the user
+// will see.
 function appNames(appID){
     switch(appID){
         case 'andless':
@@ -93,27 +96,59 @@ function appNames(appID){
     }
 }
 
+
+// Variables
+var qrFade = '#qrFade';             // The big, faded background behind the white one.
+var qrBackground = '#qrBackground'; // The white background behind the QR code/text.
+var qrText = '#qrText';             // The text with the app name and description.
+var qrCode = '#qrCode';             // The actual QR code.
+
+
+// Displays a faded background along with a popup of a QR code when the
+// user clicks an image of the 'qr' class.
 $(document).ready(function(){
     $('.qr').click(function(){
-        qrName = $(this).attr('id');
-        appName = appNames(qrName);
-        $('body').prepend('<div id="qrFade"></div><div class="emph-Block" id="qrBackground"><div id="qrText"><h2>'+appName+'</h2><hr><h4>Scan using a barcode scanner.</h4></div><img src="'+qrName+'.gif" alt="'+qrName+' QR" id="qrCode" /></div>');
-        marginTop = $('#qrBackground').height()/2;
-        marginRight = $('#qrBackground').width()/2;
-        $('#qrBackground').css({'margin-top': -marginTop, 'margin-right': -marginRight});
-        $('#qrFade').fadeIn('slow');
-        $('#qrBackground').fadeIn('slow');
-        $('#qrText').fadeIn('slow');
-        $('#qrCode').fadeIn('slow');
+ 
+        // This sets some variables, like...
+        qrName = $(this).attr('id'); // ...which QR link was clicked.
+        appName = appNames(qrName);  // ...how the app's name is stylized.
+
+        // This weirdy indented mess is the block of HTML added to index.html
+        // when clicking the QR link. The backslashes(\) are JS, not HTML, and
+        // they allow us to escape newlines and thus make the indentions.
+        // I like it, Vim's syntax hilighting does not.
+        $('body').prepend('<div id="qrFade">\
+                           </div>\
+                           <div class="emph-Block" id="qrBackground">\
+                               <div id="qrText">\
+                                   <h2>'+appName+'</h2>\
+                                   <hr>\
+                                   <h4>Scan using a barcode scanner.</h4>\
+                               </div>\
+                           <img src="'+qrName+'.gif" alt="'+qrName+' QR" id="qrCode" />\
+                           </div>');
+
+        // This sets the margin and centers the popup.
+        marginTop = $(qrBackground).height()/2;
+        marginRight = $(qrBackground).width()/2;
+        $(qrBackground).css({'margin-top': -marginTop, 'margin-right': -marginRight});
+
+        //This fades the whole thing in, making it look quite nice.
+        $(qrFade).fadeIn('slow');
+        $(qrBackground).fadeIn('slow');
+        $(qrText).fadeIn('slow');
+        $(qrCode).fadeIn('slow');
     });
 });
 
+
+// Removes the QR popup and fade when clicking outside the white, i.e., on qrFade.
 $(document).on('click', '#qrFade', function(){
-    $('#qrFade').remove();
-    $('#qrBackground').remove();
-    $('#qrText').remove();
-    $('#qrCode').remove();
+    $(qrFade).remove();
+    $(qrBackground).remove();
+    $(qrText).remove();
+    $(qrCode).remove();
 });
 
 
-// Maybe add resize reposition for .qrCode.
+// Maybe add resize reposition for .$(qrCode).
