@@ -6,6 +6,7 @@
 * https://play.google.com/store/apps/details?id=com.tweetlanes.android
 * http://www.tweetlanes.com/
 * via: https://twitter.com/amenthes_de/status/404632055205478401
+* I tested it, can be added(31dec13/repat)
 
 ### Social Media
 * https://www.gitorious.org/mustard/macnos-clone/source/009a4e38670c4510b7a57692c1b4b24fec86f95d:
@@ -35,7 +36,8 @@
 * https://github.com/TomTasche/OpenDocument.droid
 * https://play.google.com/store/apps/details?id=at.tomtasche.reader
 * http://blog.tomtasche.at/p/openoffice-document-reader_9.html
-via: google
+* via: google
+* added(31dec13/repat)
 
 ## Messenger
 ### Kontalk
