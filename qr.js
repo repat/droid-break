@@ -49,6 +49,8 @@ function appNames(appID){
             return 'OI Flashlight';
         case 'oinotepad':
             return 'OI Notepad';
+        case 'opendocumentreader':
+            return 'OpenDocument Reader';
         case 'openmanager':
             return 'Open Manager';
         case 'osmand':
@@ -77,6 +79,8 @@ function appNames(appID){
             return 'Tomdroid';
         case 'ttrssreader':
             return 'TTRSS-Reader';
+        case 'tweetlanes':
+            return 'Tweet Lanes';
         case 'twidere':
             return 'Twidere';
         case 'vanillamusic':
