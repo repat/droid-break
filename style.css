@@ -11,7 +11,7 @@ html{
     font-size: 16px;
     overflow-y: scroll;
     min-height: 100%; /**/
-} html, body, h1, h2, h3, hr, p, img, table, td, th, tr, ul.proprietary{
+} html, body, h1, h2, h3, h4, hr, p, img, table, td, th, tr, ul.proprietary{
     margin: 0rem;
     padding: 0rem;
     border: 0rem;
@@ -37,7 +37,7 @@ body{
     letter-spacing: 0.01rem;
     background-color: #f8f8f8;
     font-size: 1rem;
-    font-family: "Open Sans", Georgia, "Times New Roman", Times, serif; /* Everything that's not Open Sans was in default.css. */
+    font-family: "Open Sans", sans-serif; /* Used to be Georgia, Times New, and serif, but that looked like shit. */
     font-weight: 300;
 }
 footer{
@@ -67,6 +67,12 @@ h3{
     font-size: 2rem;
     font-weight: 400;
 }
+
+h4{
+    font-size: 0.6rem;
+    font-weight: 400;
+}
+
 hr{
     border-top: 1px solid rgba(0,0,0,0.2); /* #dddddd in default.css *//* This seems way unnecessary. */
     border-bottom: 1px solid rgba(255,255,255,0.2);
@@ -107,7 +113,7 @@ th, td{ /* table th and table td in default.css */
     font-weight; 300;
 }
 p,li,li a{ /* li p was here too, but it seemed unnecessary. li a might be. */
-//    font-size: 1rem;
+    /*font-size: 1rem;*/
     font-weight: 300;
 }
 header{
@@ -308,3 +314,34 @@ svg:not(:root){
     overflow: hidden;
 }
 
+#qrFade{
+    background-color: #333333;
+    width: 100%;
+    height: 100%;
+    z-index: 7;
+    opacity: 0.7;
+    display: none;
+    position: fixed;
+}
+
+#qrBackground{
+    background-color: #ffffff;
+    z-index: 8;
+    opacity: 1;
+    display: none;
+    position: fixed;
+    top: 50%;
+    right: 50%;
+    padding: 0rem;
+}
+
+#qrText{
+    display: inline-block;
+    text-align: center;
+    margin: 1rem 0.5rem 1rem 1rem;
+}
+
+#qrCode{
+    vertical-align: top;
+    margin: 1rem 1rem 1rem 0.5rem;
+}
