@@ -1,104 +1,199 @@
-// Function for returning the aesthetically pleasing stylization of an app name
-// The case is the id of the app in the HTML, the return is what the user
+// Function for appName =ing the aesthetically pleasing stylization of an app name
+// The case is the id of the app in the HTML, the appName = is what the user
 // will see.
-function appNames(appID){
+function appMeta(appID){
     switch(appID){
         case 'andless':
-            return 'andLess';
+            appName = 'andLess';
+            qrLink = "market://details?id=net.avs234";
+            break;
         case 'andstatus':
-            return 'AndStatus';
+            appName = 'AndStatus';
+            qrLink = "market://details?id=org.andstatus.app";
+            break;
         case 'antennapod':
-            return 'AntennaPod';
+            appName = 'AntennaPod';
+            qrLink = "market://details?id=de.danoeh.antennapod";
+            break;
         case 'anysoftkeyboard':
-            return 'AnySoftKeyboard';
-        case 'cgeo':
-            return 'c:geo';
-        case 'chatsecure':
-            return 'ChatSecure';
-        case 'csipsimple':
-            return 'CSipSimple';
-        case 'fbreader':
-            return 'FBReader';
-        case 'feedex':
-            return 'FeedEx';
-        case 'fileexplorer':
-            return 'File Explorer';
-        case 'firefox':
-            return 'Firefox';
-        case 'ghostcommander':
-            return 'Ghost Commander';
-        case 'hackerskeyboard':
-            return 'Hacker\'s Keyboard';
-        case 'impeller':
-            return 'Impeller';
-        case 'k9':
-            return 'K-9 Mail';
-        case 'linphone':
-            return 'Linphone Video';
-        case 'mupdf':
-            return 'MuPDF';
-        case 'musicplayer':
-            return 'Music Player';
-        case 'navit':
-            return 'Navit';
-        case 'notecipher':
-            return 'NoteCipher';
-        case 'oifilemanager':
-            return 'OI File Manager';
-        case 'oiflashlight':
-            return 'OI Flashlight';
-        case 'oinotepad':
-            return 'OI Notepad';
-        case 'opendocumentreader':
-            return 'OpenDocument Reader';
-        case 'openmanager':
-            return 'Open Manager';
-        case 'osmand':
-            return 'OsmAnd';
-        case 'owncloud':
-            return 'ownCloud';
-        case 'owncloudnewsreader':
-            return 'ownCloud News Reader';
-        case 'prey':
-            return 'Prey';
-        case 'redphone':
-            return 'RedPhone';
-        case 'redreader':
-            return 'RedReader';
-        case 'sipdroid':
-            return 'Sipdroid';
-        case 'surespot':
-            return 'surespot';
-        case 'telegram':
-            return 'Telegram';
-        case 'tinfoil':
-            return 'Tinfoil';
-        case 'tint':
-            return 'Tint';
-        case 'tomdroid':
-            return 'Tomdroid';
-        case 'ttrssreader':
-            return 'TTRSS-Reader';
-        case 'tweetlanes':
-            return 'Tweet Lanes';
-        case 'twidere':
-            return 'Twidere';
-        case 'vanillamusic':
-            return 'Vanilla Music';
-        case 'vlc':
-            return 'VLC';
-        case 'vudroid':
-            return 'VuDroid';
-        case 'xabber':
-            return 'Xabber';
-        case 'zirco':
-            return 'Zirco Browser';
+            appName = 'AnySoftKeyboard';
+            qrLink = "market://details?id=com.menny.android.anysoftkeyboard";
+            break;
         case 'barcodescanner':
-            return 'Barcode Scanner';
+            appName = 'Barcode Scanner';
+            qrLink = "market://details?id=com.google.zxing.client.android";
+            break;
+        case 'cgeo':
+            appName = 'c:geo';
+            qrLink = "market://details?id=cgeo.geocaching";
+            break;
+        case 'chatsecure':
+            appName = 'ChatSecure';
+            qrLink = "market://details?id=info.guardianproject.otr.app.im";
+            break;
+        case 'csipsimple':
+            appName = 'CSipSimple';
+            qrLink = "market://details?id=com.csipsimple";
+            break;
+        case 'fbreader':
+            appName = 'FBReader';
+            qrLink = "market://details?id=org.geometerplus.zlibrary.ui.android";
+            break;
+        case 'feedex':
+            appName = 'FeedEx';
+            qrLink = "market://details?id=net.fred.feedex";
+            break;
+        case 'fileexplorer':
+            appName = 'File Explorer';
+            qrLink = "market://details?id=net.appositedesigns.fileexplorer";
+            break;
+        case 'firefox':
+            appName = 'Firefox';
+            qrLink = "market://details?id=org.mozilla.firefox";
+            break;
+        case 'ghostcommander':
+            appName = 'Ghost Commander';
+            qrLink = "market://details?id=com.ghostsq.commander";
+            break;
+        case 'hackerskeyboard':
+            appName = 'Hacker\'s Keyboard';
+            qrLink = "market://details?id=org.pocketworkstation.pckeyboard";
+            break;
+        case 'impeller':
+            appName = 'Impeller';
+            qrLink = "market://details?id=eu.e43.impeller";
+            break;
+        case 'k9':
+            appName = 'K-9 Mail';
+            qrLink = "market://details?id=com.fsck.k9";
+            break;
+        case 'linphone':
+            appName = 'Linphone Video';
+            qrLink = "market://details?id=org.linphone";
+            break;
+        case 'mupdf':
+            appName = 'MuPDF';
+            qrLink = "market://details?id=com.artifex.mupdfdemo";
+            break;
+        case 'musicplayer':
+            appName = 'Music Player';
+            qrLink = "market://details?id=com.android.music";
+            break;
+        case 'navit':
+            appName = 'Navit';
+            qrLink = "market://details?id=org.navitproject.navit";
+            break;
+        case 'notecipher':
+            appName = 'NoteCipher';
+            qrLink = "market://details?id=info.guardianproject.notepadbot";
+            break;
+        case 'oifilemanager':
+            appName = 'OI File Manager';
+            qrLink = "market://details?id=org.openintents.filemanager";
+            break;
+        case 'oiflashlight':
+            appName = 'OI Flashlight';
+            qrLink = "market://details?id=org.openintents.flashlight";
+            break;
+        case 'oinotepad':
+            appName = 'OI Notepad';
+            qrLink = "market://details?id=org.openintents.notepad";
+            break;
+        case 'opendocumentreader':
+            appName = 'OpenDocument Reader';
+            qrLink = "market://details?id=at.tomtasche.reader";
+            break;
+        case 'openmanager':
+            appName = 'Open Manager';
+            qrLink = "market://details?id=com.nexes.manager";
+            break;
+        case 'osmand':
+            appName = 'OsmAnd';
+            qrLink = "market://details?id=net.osmand.plus";
+            break;
+        case 'owncloud':
+            appName = 'ownCloud';
+            qrLink = "market://details?id=com.owncloud.android";
+            break;
+        case 'owncloudnewsreader':
+            appName = 'ownCloud News Reader';
+            qrLink = "market://details?id=de.luhmer.owncloudnewsreader";
+            break;
+        case 'prey':
+            appName = 'Prey';
+            qrLink = "market://details?id=com.prey";
+            break;
+        case 'redphone':
+            appName = 'RedPhone';
+            qrLink = "market://details?id=org.thoughtcrime.redphone";
+            break;
+        case 'redreader':
+            appName = 'RedReader';
+            qrLink = "market://details?id=org.quantumbadger.redreader";
+            break;
+        case 'sipdroid':
+            appName = 'Sipdroid';
+            qrLink = "market://details?id=org.sipdroid.sipua";
+            break;
+        case 'surespot':
+            appName = 'surespot';
+            qrLink = "market://details?id=com.twofours.surespot";
+            break;
+        case 'telegram':
+            appName = 'Telegram';
+            qrLink = "market://details?id=org.telegram.messenger";
+            break;
+        case 'tinfoil':
+            appName = 'Tinfoil';
+            qrLink = "market://details?id=com.danvelazco.fbwrapper";
+            break;
+        case 'tint':
+            appName = 'Tint';
+            qrLink = "market://details?id=org.tint";
+            break;
+        case 'tomdroid':
+            appName = 'Tomdroid';
+            qrLink = "market://details?id=org.tomdroid";
+            break;
+        case 'ttrssreader':
+            appName = 'TTRSS-Reader';
+            qrLink = "market://details?id=org.ttrssreader";
+            break;
+        case 'tweetlanes':
+            appName = 'Tweet Lanes';
+            qrLink = "market://details?id=com.tweetlanes.android";
+            break;
+        case 'twidere':
+            appName = 'Twidere';
+            qrLink = "market://details?id=org.mariotaku.twidere";
+            break;
+        case 'vanillamusic':
+            appName = 'Vanilla Music';
+            qrLink = "market://details?id=ch.blinkenlights.android.vanilla";
+            break;
+        case 'vlc':
+            appName = 'VLC';
+            qrLink = "market://details?id=org.videolan.vlc";
+            break;
+        case 'vudroid':
+            appName = 'VuDroid';
+            qrLink = "market://details?id=org.vudroid";
+            break;
+        case 'xabber':
+            appName = 'Xabber';
+            qrLink = "market://details?id=com.xabber.androiddev";
+            break;
+        case 'zirco':
+            appName = 'Zirco Browser';
+            qrLink = "market://details?id=org.zirco";
+            break;
         default:
-            return appID;
+            appName = appID;
+            qrLink = appID;
+            break;
     }
 }
+
 
 
 // Variables
@@ -113,9 +208,8 @@ var qrCode = '#qrCode';             // The actual QR code.
 $(document).ready(function(){
     $('.qr').click(function(){
  
-        // This sets some variables, like...
-        qrName = $(this).attr('id'); // ...which QR link was clicked.
-        appName = appNames(qrName);  // ...how the app's name is stylized.
+        // This sets variables according to which app QR was clicked.
+        appMeta( $(this).attr('id') );
 
         // This weirdy indented mess is the block of HTML added to index.html
         // when clicking the QR link. The backslashes(\) are JS, not HTML, and
@@ -126,10 +220,18 @@ $(document).ready(function(){
                            <div class="emph-Block" id="qrBackground">\
                                <div id="qrText">\
                                    <h2>'+appName+'</h2>\
+                                   <a href="'+qrLink+'">\
+                                       <h4>'+qrLink+'</h4>\
+                                   </a>\
                                    <hr>\
                                    <h4>Scan using a barcode scanner.</h4>\
                                </div>\
-                           <img src="'+qrName+'.gif" alt="'+qrName+' QR" id="qrCode" />\
+                               <a href="'+qrLink+'">\
+                                   <div id="qrCode"></div>\
+                               </a>\
+                               <script type="text/javascript">\
+                                   new QRCode(document.getElementById("qrCode"), qrLink);\
+                               </script>\
                            </div>');
 
         // This sets the margin and centers the popup.

@@ -344,4 +344,7 @@ svg:not(:root){
 #qrCode{
     vertical-align: top;
     margin: 1rem 1rem 1rem 0.5rem;
+    width: 8rem;
+    height: 8rem;
+    display: inline-block;
 }
