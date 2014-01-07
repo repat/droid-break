@@ -71,6 +71,10 @@ function appMeta(appID){
             appName = 'Linphone Video';
             qrLink = "market://details?id=org.linphone";
             break;
+        case 'mosf':
+            appName = 'Minimal Open Source Flashlight';
+            qrLink = "market://details?id=de.repat.mosf";
+            break;
         case 'mupdf':
             appName = 'MuPDF';
             qrLink = "market://details?id=com.artifex.mupdfdemo";
