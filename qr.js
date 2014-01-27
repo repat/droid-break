@@ -179,6 +179,10 @@ function appMeta(appID){
             appName = 'VLC';
             qrLink = "market://details?id=org.videolan.vlc";
             break;
+            case 'vlcplayer':
+            appName = 'VLC';
+            qrLink = "market://details?id=org.videolan.vlc";
+            break;
         case 'vudroid':
             appName = 'VuDroid';
             qrLink = "market://details?id=org.vudroid";
