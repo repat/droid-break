@@ -35,6 +35,10 @@ function appMeta(appID){
             appName = 'CSipSimple';
             qrLink = "market://details?id=com.csipsimple";
             break;
+        case 'coolreader':
+            appName = 'CoolReader';
+            qrLink = "market://details?id=org.coolreader";
+            break;
         case 'fbreader':
             appName = 'FBReader';
             qrLink = "market://details?id=org.geometerplus.zlibrary.ui.android";
@@ -50,6 +54,10 @@ function appMeta(appID){
         case 'firefox':
             appName = 'Firefox';
             qrLink = "market://details?id=org.mozilla.firefox";
+            break;
+        case 'flappycow':
+            appName = 'FlappyCow';
+            qrLink = "market://details?id=com.quchen.flappycow";
             break;
         case 'ghostcommander':
             appName = 'Ghost Commander';
@@ -70,6 +78,10 @@ function appMeta(appID){
         case 'linphone':
             appName = 'Linphone Video';
             qrLink = "market://details?id=org.linphone";
+            break;
+        case 'mosf':
+            appName = 'Minimal Open Source Flashlight';
+            qrLink = "market://details?id=de.repat.mosf";
             break;
         case 'mupdf':
             appName = 'MuPDF';
@@ -143,6 +155,10 @@ function appMeta(appID){
             appName = 'Telegram';
             qrLink = "market://details?id=org.telegram.messenger";
             break;
+         case 'textsecure':
+            appName = 'TextSecure';
+            qrLink = "market://details?id=org.thoughtcrime.securesms";
+            break;
         case 'tinfoil':
             appName = 'Tinfoil';
             qrLink = "market://details?id=com.danvelazco.fbwrapper";
@@ -172,6 +188,10 @@ function appMeta(appID){
             qrLink = "market://details?id=ch.blinkenlights.android.vanilla";
             break;
         case 'vlc':
+            appName = 'VLC';
+            qrLink = "market://details?id=org.videolan.vlc";
+            break;
+            case 'vlcplayer':
             appName = 'VLC';
             qrLink = "market://details?id=org.videolan.vlc";
             break;
