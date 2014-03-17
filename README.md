@@ -11,7 +11,7 @@ You will find most of these apps in the [F-Droid](https://f-droid.org/ "F-Droid"
 Browser, Social Networks, Messenger, VoIP, Audio/Podcasts, Video, Email, Notes, News Reader, File Manager, Navigation, Keyboards, Cloud, Office, Misc
 
 ## Technical stuff
-* We just changed our hoster from [neocities.org] to GitHub, so you can just submit pull requests and the changes will automatically appear on the website
+* We just changed our hoster from [neocities.org](http://neocities.org) to GitHub, so you can just submit pull requests and the changes will automatically appear on the website
 * Please use just plain HTML5/CSS/JS, as no other language is supported(no PHP, Perl, Python, ...)
 * Please convert the proprietary images(*/img/proprietary*) to 25x25 and the free images(*/img/foss*) to 50x50 in the .png format
 
