@@ -1,6 +1,6 @@
 Droid-Break
 ======
-This repository is obsolete. Please go to [github.com/droidbreak/droidbreak.github.io](github.com/droidbreak/droidbreak.github.io).
+This repository is obsolete. Please go to [github.com/droidbreak/droidbreak.github.io](http://github.com/droidbreak/droidbreak.github.io).
 
 ## Contact
 * http://repat.de
