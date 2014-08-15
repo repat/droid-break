@@ -75,6 +75,10 @@ function appMeta(appID){
             appName = 'K-9 Mail';
             qrLink = "market://details?id=com.fsck.k9";
             break;
+        case 'lightningbrowser':
+            appName = 'Lightning Browser';
+            qrLink = "market://details?id=acr.browser.lightning";
+            break;
         case 'linphone':
             appName = 'Linphone Video';
             qrLink = "market://details?id=org.linphone";
