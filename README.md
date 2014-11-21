@@ -8,7 +8,7 @@ If you think an app is missing, please write an [email](http://droid-break.info/
 You will find most of these apps in the [F-Droid](https://f-droid.org/ "F-Droid") repository. Also, you might want to consider to flash a custom ROM like [Cyanogen Mod](http://www.cyanogenmod.org/ "CyanogenMod") or [Replicant](http://replicant.us/ "Replicant") on your device. 
 
 ## Categories
-Browser, Social Networks, Messenger, VoIP, Audio/Podcasts, Video, Email, Notes, News Reader, File Manager, Navigation, Keyboards, Cloud, Office, Misc
+Browser, Social Networks, Messenger, VoIP, Audio/Podcasts, Video, Email, Notes, News Reader, File Manager, Navigation, Keyboards, Cloud, Office, VPN Clients, Misc
 
 ## Technical stuff
 * We just changed our hoster from [neocities.org](http://neocities.org) to GitHub, so you can just submit pull requests and the changes will automatically appear on the website.

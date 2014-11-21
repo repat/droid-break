@@ -67,6 +67,10 @@ function appMeta(appID){
             appName = 'Hacker\'s Keyboard';
             qrLink = "market://details?id=org.pocketworkstation.pckeyboard";
             break;
+        case 'ics-openvpn':
+            appName = 'OpenVPN for Android';
+            qrLink = "market://details?id=de.blinkt.openvpn";
+            break;
         case 'impeller':
             appName = 'Impeller';
             qrLink = "market://details?id=eu.e43.impeller";
@@ -114,6 +118,10 @@ function appMeta(appID){
         case 'oinotepad':
             appName = 'OI Notepad';
             qrLink = "market://details?id=org.openintents.notepad";
+            break;
+        case 'openconnect':
+            appName = 'OpenConnect';
+            qrLink = "market://details?id=app.openconnect";
             break;
         case 'opendocumentreader':
             appName = 'OpenDocument Reader';
