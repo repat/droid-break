@@ -3,10 +3,6 @@
 // will see.
 function appMeta(appID){
     switch(appID){
-        case 'andless':
-            appName = 'andLess';
-            qrLink = "market://details?id=net.avs234";
-            break;
         case 'andstatus':
             appName = 'AndStatus';
             qrLink = "market://details?id=org.andstatus.app";
@@ -194,6 +190,10 @@ function appMeta(appID){
         case 'twidere':
             appName = 'Twidere';
             qrLink = "market://details?id=org.mariotaku.twidere";
+            break;
+        case 'turtle':
+            appName = 'Turtle Player';
+            qrLink = "market://details?id=com.turtleplayerv2";
             break;
         case 'vanillamusic':
             appName = 'Vanilla Music';
