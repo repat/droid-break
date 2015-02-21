@@ -13,6 +13,10 @@
 * https://play.google.com/store/apps/details?id=com.seafile.seadroid2
 * via: https://twitter.com/soratobu__neko/status/408095255632699392
 
+### Syncthing
+* http://syncthing.net/
+* via email (svenhoh84)
+
 ## Todo/Office?
 ### Tasks
 * https://github.com/abaker/tasks
