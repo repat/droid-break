@@ -15,6 +15,10 @@ function appMeta(appID){
             appName = 'AnySoftKeyboard';
             qrLink = "market://details?id=com.menny.android.anysoftkeyboard";
             break;
+        case 'amazefilemanager':
+            appName = 'Amaze File Manager';
+            qrLink = "market://details?id=com.amaze.filemanager";
+            break;
         case 'barcodescanner':
             appName = 'Barcode Scanner';
             qrLink = "market://details?id=com.google.zxing.client.android";
@@ -31,9 +35,21 @@ function appMeta(appID){
             appName = 'CSipSimple';
             qrLink = "market://details?id=com.csipsimple";
             break;
+        case 'conversations':
+            appName = 'Conversations';
+            qrLink = "market://details?id=eu.siacs.conversations";
+            break;
         case 'coolreader':
             appName = 'CoolReader';
             qrLink = "market://details?id=org.coolreader";
+            break;
+        case 'davdroid':
+            appName = 'DAVdroid';
+            qrLink = "market://details?id=at.bitfire.davdroid";
+            break;
+        case 'documentviewer':
+            appName = 'Document Viewer';
+            qrLink = "market://details?id=org.sufficientlysecure.viewer";
             break;
         case 'fbreader':
             appName = 'FBReader';
@@ -55,6 +71,10 @@ function appMeta(appID){
             appName = 'FlappyCow';
             qrLink = "market://details?id=com.quchen.flappycow";
             break;
+        case 'flock':
+            appName = 'Flock';
+            qrLink = "market://details?id=org.anhonesteffort.flock";
+            break;
         case 'ghostcommander':
             appName = 'Ghost Commander';
             qrLink = "market://details?id=com.ghostsq.commander";
@@ -75,6 +95,10 @@ function appMeta(appID){
             appName = 'K-9 Mail';
             qrLink = "market://details?id=com.fsck.k9";
             break;
+        case 'libreofficeviewer':
+            appName = 'LibreOffice Viewer';
+            qrLink = "market://details?id=com.collabora.libreoffice";
+            break;
         case 'lightningbrowser':
             appName = 'Lightning Browser';
             qrLink = "market://details?id=acr.browser.lightning";
@@ -82,6 +106,10 @@ function appMeta(appID){
         case 'linphone':
             appName = 'Linphone Video';
             qrLink = "market://details?id=org.linphone";
+            break;
+        case 'mitzuli':
+            appName = 'Mitzuli';
+            qrLink = "market://details?id=com.mitzuli";
             break;
         case 'mosf':
             appName = 'Minimal Open Source Flashlight';
@@ -142,6 +170,10 @@ function appMeta(appID){
         case 'prey':
             appName = 'Prey';
             qrLink = "market://details?id=com.prey";
+            break;
+        case 'quicklyric':
+            appName = 'QuickLyric';
+            qrLink = "market://details?id=com.geecko.QuickLyric";
             break;
         case 'redphone':
             appName = 'RedPhone';
@@ -210,6 +242,10 @@ function appMeta(appID){
         case 'vudroid':
             appName = 'VuDroid';
             qrLink = "market://details?id=org.vudroid";
+            break;
+        case 'writeilypro':
+            appName = 'Writeily Pro';
+            qrLink = "market://details?id=me.writeily.pro";
             break;
         case 'xabber':
             appName = 'Xabber';
