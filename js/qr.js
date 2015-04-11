@@ -75,6 +75,10 @@ function appMeta(appID){
             appName = 'Flock';
             qrLink = "market://details?id=org.anhonesteffort.flock";
             break;
+        case 'freeotp':
+            appName = 'FreeOTP';
+            qrLink = "market://details?id=org.fedorahosted.freeotp";
+            break;
         case 'ghostcommander':
             appName = 'Ghost Commander';
             qrLink = "market://details?id=com.ghostsq.commander";
@@ -95,6 +99,10 @@ function appMeta(appID){
             appName = 'K-9 Mail';
             qrLink = "market://details?id=com.fsck.k9";
             break;
+        case 'keepassdroid':
+            appName = 'KeePassDroid';
+            qrLink = "market://details?id=com.android.keepass";
+            break;
         case 'libreofficeviewer':
             appName = 'LibreOffice Viewer';
             qrLink = "market://details?id=com.collabora.libreoffice";
@@ -104,7 +112,7 @@ function appMeta(appID){
             qrLink = "market://details?id=acr.browser.lightning";
             break;
         case 'linphone':
-            appName = 'Linphone Video';
+            appName = 'Linphone';
             qrLink = "market://details?id=org.linphone";
             break;
         case 'mitzuli':
@@ -242,6 +250,10 @@ function appMeta(appID){
         case 'vudroid':
             appName = 'VuDroid';
             qrLink = "market://details?id=org.vudroid";
+            break;
+        case 'wifiprivacypolice':
+            appName = 'Wi-Fi Privacy Police';
+            qrLink = "market://details?id=be.uhasselt.privacypolice";
             break;
         case 'writeilypro':
             appName = 'Writeily Pro';
