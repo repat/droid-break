@@ -55,14 +55,6 @@ function appMeta(appID){
             appName = 'FBReader';
             qrLink = "market://details?id=org.geometerplus.zlibrary.ui.android";
             break;
-        case 'feedex':
-            appName = 'FeedEx';
-            qrLink = "market://details?id=net.fred.feedex";
-            break;
-        case 'fileexplorer':
-            appName = 'File Explorer';
-            qrLink = "market://details?id=net.appositedesigns.fileexplorer";
-            break;
         case 'firefox':
             appName = 'Firefox';
             qrLink = "market://details?id=org.mozilla.firefox";
@@ -143,10 +135,6 @@ function appMeta(appID){
             appName = 'OI File Manager';
             qrLink = "market://details?id=org.openintents.filemanager";
             break;
-        case 'oiflashlight':
-            appName = 'OI Flashlight';
-            qrLink = "market://details?id=org.openintents.flashlight";
-            break;
         case 'oinotepad':
             appName = 'OI Notepad';
             qrLink = "market://details?id=org.openintents.notepad";
@@ -158,10 +146,6 @@ function appMeta(appID){
         case 'opendocumentreader':
             appName = 'OpenDocument Reader';
             qrLink = "market://details?id=at.tomtasche.reader";
-            break;
-        case 'openmanager':
-            appName = 'Open Manager';
-            qrLink = "market://details?id=com.nexes.manager";
             break;
         case 'osmand':
             appName = 'OsmAnd';
@@ -191,10 +175,6 @@ function appMeta(appID){
             appName = 'RedReader';
             qrLink = "market://details?id=org.quantumbadger.redreader";
             break;
-        case 'sipdroid':
-            appName = 'Sipdroid';
-            qrLink = "market://details?id=org.sipdroid.sipua";
-            break;
         case 'surespot':
             appName = 'surespot';
             qrLink = "market://details?id=com.twofours.surespot";
@@ -208,12 +188,8 @@ function appMeta(appID){
             qrLink = "market://details?id=org.thoughtcrime.securesms";
             break;
         case 'tinfoil':
-            appName = 'Tinfoil';
+            appName = 'Tinfoil for Facebook';
             qrLink = "market://details?id=com.danvelazco.fbwrapper";
-            break;
-        case 'tint':
-            appName = 'Tint';
-            qrLink = "market://details?id=org.tint";
             break;
         case 'tomdroid':
             appName = 'Tomdroid';
@@ -243,14 +219,6 @@ function appMeta(appID){
             appName = 'VLC';
             qrLink = "market://details?id=org.videolan.vlc";
             break;
-            case 'vlcplayer':
-            appName = 'VLC';
-            qrLink = "market://details?id=org.videolan.vlc";
-            break;
-        case 'vudroid':
-            appName = 'VuDroid';
-            qrLink = "market://details?id=org.vudroid";
-            break;
         case 'wifiprivacypolice':
             appName = 'Wi-Fi Privacy Police';
             qrLink = "market://details?id=be.uhasselt.privacypolice";
@@ -262,10 +230,6 @@ function appMeta(appID){
         case 'xabber':
             appName = 'Xabber';
             qrLink = "market://details?id=com.xabber.androiddev";
-            break;
-        case 'zirco':
-            appName = 'Zirco Browser';
-            qrLink = "market://details?id=org.zirco";
             break;
         default:
             appName = appID;
