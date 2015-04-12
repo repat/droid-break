@@ -1,14 +1,14 @@
 Droid-Break
 ======
-Droid-Break is a list of free and open source Android apps inspired by [prism-break.org](https://prism-break.org "prism-break"). We want to show you high quality alternatives to the big proprietary solutions. 
+Droid-Break is a list of free and open source Android apps inspired by [Prism-Break](https://prism-break.org "prism-break"). Our purpose is to show you high quality alternatives to the big proprietary solutions. 
 Please note that open source apps don't guarantee absolute freedom, e.g. an open source Twitter client still sends everything to Twitter's servers. 
 Anyway, we believe it's the best we can come up with and that in many cases it's the better choice. 
-If you think an app is missing, please write an [email](http://droid-break.info/support.html "support"), a [tweet](https://twitter.com/droidbreak "@droidbreak"), a [disqus](http://droid-break.info/#disqus "Disqus for droid-break.info") comment or fork the project on GitHub and make a pull request. 
+If you think an app should be added, please write an [email](http://droid-break.info/support.html "support"), a [tweet](https://twitter.com/droidbreak "@droidbreak"), a [disqus](http://droid-break.info/#disqus "Disqus for droid-break.info") comment or fork the project on GitHub and make a pull request. 
 
 You will find most of these apps in the [F-Droid](https://f-droid.org/ "F-Droid") repository. Also, you might want to consider to flash a custom ROM like [Cyanogen Mod](http://www.cyanogenmod.org/ "CyanogenMod") or [Replicant](http://replicant.us/ "Replicant") on your device. 
 
 ## Categories
-Browser, Social Networks, Messenger, VoIP, Audio/Podcasts, Video, Email, Notes, News Reader, File Manager, Navigation, Keyboards, Cloud, Office, VPN Clients, Misc
+Web Browser, Social Networking, Messenger, VoIP, Multimedia, Email, Notes, News Reader, File Manager, Navigation, Keyboard, Cloud, Office, Security, Misc
 
 ## Technical stuff
 * We just changed our hoster from [neocities.org](http://neocities.org) to GitHub, so you can just submit pull requests and the changes will automatically appear on the website.
@@ -24,8 +24,8 @@ Browser, Social Networks, Messenger, VoIP, Audio/Podcasts, Video, Email, Notes, 
 * [Facebook](https://facebook.com/droidbreak "Droid-Break on Facebook")
 * [Twitter](https://twitter.com/droidbreak "Droid-Break on Twitter")
 
-## Contributers
-* [List of contributers](http://droid-break.info/credits.html "List of contributers")
+## Contributors
+* [List of contributors](http://droid-break.info/credits.html "List of contributors")
 
 ## Contact
 * http://repat.de
