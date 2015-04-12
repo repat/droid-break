@@ -45,3 +45,8 @@
 ### Liberario
 * https://play.google.com/store/apps/details?id=de.grobox.liberario
 * via Torsten(developer)->Email
+
+## Security
+### AIMSICD Android-IMSI-Catcher-Detector
+* https://secupwn.github.io/Android-IMSI-Catcher-Detector/
+* reccomendation: wait for stable version
