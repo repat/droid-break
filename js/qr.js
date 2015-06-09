@@ -131,6 +131,10 @@ function appMeta(appID){
             appName = 'NoteCipher';
             qrLink = "market://details?id=info.guardianproject.notepadbot";
             break;
+        case 'nononsensenotes':
+            appName = 'NoNonsense Notes';
+            qrLink = "market://details?id=com.nononsenseapps.notepad";
+            break;
         case 'oifilemanager':
             appName = 'OI File Manager';
             qrLink = "market://details?id=org.openintents.filemanager";
