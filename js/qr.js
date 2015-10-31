@@ -107,6 +107,14 @@ function appMeta(appID){
             appName = 'Linphone';
             qrLink = "market://details?id=org.linphone";
             break;
+        case 'mapsme':
+            appName = 'MAPS.ME';
+            qrLink = "market://details?id=com.mapswithme.maps.pro";
+            break;
+        case 'materialaudiobookplayer':
+            appName = 'Material Audiobook Player';
+            qrLink = "market://details?id=de.ph1b.audiobook";
+            break;
         case 'mitzuli':
             appName = 'Mitzuli';
             qrLink = "market://details?id=com.mitzuli";
@@ -119,13 +127,9 @@ function appMeta(appID){
             appName = 'MuPDF';
             qrLink = "market://details?id=com.artifex.mupdfdemo";
             break;
-        case 'musicplayer':
-            appName = 'Music Player';
-            qrLink = "market://details?id=com.android.music";
-            break;
-        case 'navit':
-            appName = 'Navit';
-            qrLink = "market://details?id=org.navitproject.navit";
+        case 'newpipe':
+            appName = 'NewPipe';
+            qrLink = "market://details?id=org.schabi.newpipe";
             break;
         case 'notecipher':
             appName = 'NoteCipher';
@@ -146,10 +150,6 @@ function appMeta(appID){
         case 'openconnect':
             appName = 'OpenConnect';
             qrLink = "market://details?id=app.openconnect";
-            break;
-        case 'opendocumentreader':
-            appName = 'OpenDocument Reader';
-            qrLink = "market://details?id=at.tomtasche.reader";
             break;
         case 'osmand':
             appName = 'OsmAnd';
@@ -179,6 +179,10 @@ function appMeta(appID){
             appName = 'RedReader';
             qrLink = "market://details?id=org.quantumbadger.redreader";
             break;
+        case 'sparss':
+            appName = 'spaRSS';
+            qrLink = "market://details?id=net.etuldan.sparss";
+            break;
         case 'surespot':
             appName = 'surespot';
             qrLink = "market://details?id=com.twofours.surespot";
@@ -199,6 +203,10 @@ function appMeta(appID){
             appName = 'Tomdroid';
             qrLink = "market://details?id=org.tomdroid";
             break;
+        case 'transportr':
+            appName = 'Transportr';
+            qrLink = "market://details?id=de.grobox.liberario";
+            break;
         case 'ttrssreader':
             appName = 'TTRSS-Reader';
             qrLink = "market://details?id=org.ttrssreader";
@@ -210,10 +218,6 @@ function appMeta(appID){
         case 'twidere':
             appName = 'Twidere';
             qrLink = "market://details?id=org.mariotaku.twidere";
-            break;
-        case 'turtle':
-            appName = 'Turtle Player';
-            qrLink = "market://details?id=com.turtleplayerv2";
             break;
         case 'vanillamusic':
             appName = 'Vanilla Music';
