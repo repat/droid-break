@@ -29,13 +29,6 @@
 * https://play.google.com/store/apps/details?id=com.eztransition.tasquid
 * via: https://twitter.com/amenthes_de/status/404632055205478401
 
-## Messenger
-### Kontalk
-* https://code.google.com/p/kontalk/
-* https://play.google.com/store/apps/details?id=org.kontalk
-* http://www.kontalk.org/
-* recommendation: wait until they implement XMPP
-
 ## Audio Player
 ### Apollo-CM
 * https://github.com/adneal/Apollo-CM
