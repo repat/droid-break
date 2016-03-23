@@ -95,6 +95,10 @@ function appMeta(appID){
             appName = 'KeePassDroid';
             qrLink = "market://details?id=com.android.keepass";
             break;
+        case 'kontalk':
+            appName = 'Kontalk';
+            qrLink = "market://details?id=org.kontalk";
+            break;
         case 'libreofficeviewer':
             appName = 'LibreOffice Viewer';
             qrLink = "market://details?id=com.collabora.libreoffice";
