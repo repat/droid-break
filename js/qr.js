@@ -79,6 +79,10 @@ function appMeta(appID){
             appName = 'Hacker\'s Keyboard';
             qrLink = "market://details?id=org.pocketworkstation.pckeyboard";
             break;
+        case 'icecat':
+            appName = 'IceCatMobile';
+            qrLink = "market://details?id=org.gnu.icecat";
+            break;
         case 'ics-openvpn':
             appName = 'OpenVPN for Android';
             qrLink = "market://details?id=de.blinkt.openvpn";
